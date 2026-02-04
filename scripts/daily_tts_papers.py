@@ -75,7 +75,10 @@ def fetch_abstracts_batch(arxiv_ids):
         return {}
 
 def parse_markdown_table(file_path: Path):
-    lines = file_path.read_text(encoding='utf-8').splitlines()
+    try:
+        lines = file_path.read_text(encoding='utf-8').splitlines()
+    except UnicodeDecodeError:
+        lines = file_path.read_text(encoding='gbk', errors='replace').splitlines()
     papers = []
     for line in lines:
         line = line.strip()

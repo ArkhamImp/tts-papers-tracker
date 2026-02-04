@@ -125,7 +125,10 @@ def build_paper_dict():
     raw_readme = RAW_DIR / "README.md"
     if not raw_readme.exists():
         raise FileNotFoundError(f"Missing: {raw_readme}")
-    lines = raw_readme.read_text(encoding='utf-8').splitlines()
+    try:
+        lines = raw_readme.read_text(encoding='utf-8').splitlines()
+    except UnicodeDecodeError:
+        lines = raw_readme.read_text(encoding='gbk', errors='replace').splitlines()
     papers = {}
     for line in lines:
         line = line.strip()
