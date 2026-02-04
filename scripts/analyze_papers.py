@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-为 TTS 论文生成 LLM 分析（基于摘要 + PDF 全文关键部分）
+为 TTS 论文生成详细 LLM 分析（基于摘要 + PDF 全文关键部分）
+使用 OpenRouter Step 模型进行深度分析，生成综合性技术评估
 """
 
 import json
@@ -29,11 +30,11 @@ def load_config():
         raise FileNotFoundError(f"Config not found: {config_path}")
     with open(config_path, 'r', encoding='utf-8') as f:
         cfg = json.load(f)
-    openrouter = cfg["models"]["providers"]["openrouter"]
+    model = cfg["models"]["providers"]["qwen"]
     return {
-        "api_key": openrouter["apiKey"],
-        "base_url": openrouter["baseUrl"],
-        "model": "arcee-ai/trinity-large-preview:free"
+        "api_key": mdoel['apiKey'],
+        "base_url": mdoel['baseUrl'],
+        "model": mdoel['models']['id']
     }
 
 def load_json(path):
@@ -115,7 +116,7 @@ def call_llm(prompt, model, api_key, base_url):
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.3,
-        "max_tokens": 1024
+        "max_tokens": 4096
     }
     resp = requests.post(url, json=payload, headers=headers, timeout=60)
     resp.raise_for_status()
@@ -162,7 +163,7 @@ def analyze_paper(paper, config, pdf_text_cache=None):
     arxiv_id = paper['arxiv_id']
     pdf_text = pdf_text_cache.get(arxiv_id, "")
 
-    prompt = f"""Analyze this TTS/audio paper:
+    prompt = f"""Analyze this TTS (Text-to-Speech) research paper in detail:
 
 Title: {paper['title']}
 Authors: {paper['authors']}
@@ -172,19 +173,26 @@ Abstract: {paper.get('abstract', 'No abstract')}
     if pdf_text:
         prompt += f"\nFull text excerpts (key sections):\n{pdf_text}\n"
     prompt += """
-Provide analysis in pure JSON (no markdown) with these fields:
+Provide comprehensive analysis in pure JSON (no markdown) with these detailed fields:
+
 {
-  "tldr": "one-sentence summary",
-  "core_contribution": "main contribution",
-  "methodology": "how they did it, technical approach",
-  "key_findings": "main results, experiments, metrics",
-  "limitations": "limitations or weaknesses",
-  "future_work": "future directions mentioned",
-  "evaluation": "weak|medium|strong (based on experimental rigor)",
-  "rating": integer 1-10
+  "tldr": "Comprehensive 2-3 sentence executive summary capturing the essence and significance",
+  "core_contribution": "Detailed description of the main contribution, explaining what problem it solves and its innovation",
+  "technical_approach": "Specific technical methods, architectures, and algorithms used. Include model details, training strategies, and implementation specifics",
+  "key_innovations": "List of 2-4 key technical innovations or novel approaches that differentiate this work",
+  "methodology": "Detailed methodology including experimental setup, baselines compared, evaluation metrics, and dataset information",
+  "key_findings": "Specific results with quantitative metrics, qualitative observations, and comparisons to previous work",
+  "technical_strengths": "Technical strengths and advantages of the approach",
+  "limitations": "Detailed limitations, technical constraints, and potential issues",
+  "future_work": "Specific future directions mentioned in the paper and suggested improvements",
+  "evaluation": "Detailed evaluation of experimental rigor: weak|medium|strong (explain why)",
+  "rating": integer 1-10 (based on technical significance, innovation, and quality)",
+  "related_work": "How this work relates to previous TTS research and its position in the field",
+  "practical_applications": "Potential real-world applications and impact",
+  "technical_complexity": "low|medium|high (based on implementation difficulty and technical depth)"
 }
 
-Important: Output only the JSON object. Do not include extra text."""
+Important: Provide detailed, substantive analysis for each field. Output only the JSON object. Do not include any extra text or explanations outside the JSON structure."""
     try:
         output = call_llm(prompt, config["model"], config["api_key"], config["base_url"])
         # 提取 JSON 块
