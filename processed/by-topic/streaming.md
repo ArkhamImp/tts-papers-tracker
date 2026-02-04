@@ -261,7 +261,7 @@
 ## 2024-10-30
 
 - **Lina-Speech: Gated Linear Attention is a Fast and Parameter-Efficient Learner for text-to-speech synthesis**
-  - Authors: Théodor Lemerle et.al.
+  - Authors: Th茅odor Lemerle et.al.
   - arXiv: [2410.23320](https://arxiv.org/abs/2410.23320)
 
 ## 2024-10-29
@@ -279,7 +279,7 @@
 ## 2024-10-09
 
 - **Efficient training strategies for natural sounding speech synthesis and speaker adaptation based on FastPitch**
-  - Authors: Teodora Răgman et.al.
+  - Authors: Teodora R膬gman et.al.
   - arXiv: [2410.06787](https://arxiv.org/abs/2410.06787)
 
 ## 2024-10-04
@@ -384,7 +384,7 @@
 ## 2023-06-02
 
 - **Towards Robust FastSpeech 2 by Modelling Residual Multimodality**
-  - Authors: Fabian Kögel et.al.
+  - Authors: Fabian K枚gel et.al.
   - arXiv: [2306.01442](https://arxiv.org/abs/2306.01442)
 
 ## 2023-05-25

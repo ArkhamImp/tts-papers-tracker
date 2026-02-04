@@ -1,183 +1,172 @@
-# 📚 TTS & Audio Papers Tracking System
+# TTS 论文追踪与处理系统
 
-## Daily Sources (Auto-Updating)
+自动追踪、处理、分析和 summarise 最新的 TTS 相关论文（基于 arxiv 每日更新）。
 
-### 1. TTS-arxiv-daily (Primary)
-- **URL**: https://github.com/liutaocode/TTS-arxiv-daily
-- **Update Frequency**: Every 12 hours via GitHub Actions
-- **Content**: Text-to-Speech, speech synthesis, voice cloning, expressive TTS, LLM-based audio generation
-- **Format**: Markdown with date folders, each containing:
-  - Paper title
-  - Authors
-  - arXiv ID and link
-  - Optional GitHub links
-- **Status**: ✅ **Added to tracking system** (2026-02-03)
-
-### 2. ASR-TTS-paper-daily (Secondary)
-- **URL**: https://github.com/halsay/ASR-TTS-paper-daily
-- **Content**: Broader ASR/TTS coverage, chronological
-- **Use Case**: Cross-validation and catching missed papers
-
-### 3. VibeVoice & Industry Models (Manual)
-- Microsoft VibeVoice: https://github.com/microsoft/VibeVoice
-- NVIDIA NeMo: https://github.com/NVIDIA/NeMo
-- FunAudioLLM: https://github.com/FunAudioLLM/Fun-ASR
-- Parakeet (NIM): https://huggingface.co/nvidia/multitalker-parakeet-streaming-0.6b-v1
-
-## Storage & Organization
+## 目录结构
 
 ```
-workspace/papers/
-├── raw/
-│   └── tts-arxiv-daily/       # Cloned repo (auto-updated)
-├── processed/
-│   ├── by-date/
-│   │   └── 2026-02-03.md      # Today's parsed papers (TTS only)
-│   ├── by-topic/
-│   │   ├── zero-shot.md
-│   │   ├── expressive.md
-│   │   ├── streaming.md
-│   │   ├── long-context.md
-│   │   ├── multilingual.md
-│   │   └── codec.md
-│   └── index.md               # Master index with tags, priorities
-├── summaries/
-│   ├── weekly/
-│   │   └── 2026-W05.md        # Week 5 (Feb 3-9)
-│   └── monthly/
-└── README.md                   # This file
+papers/
+├── raw/tts-arxiv-daily/      # 原始数据源
+│   ├── README.md             # 论文列表 Markdown 表格
+│   ├── config.yaml           # 爬虫配置
+│   └── daily_arxiv.py        # arxiv 爬虫脚本
+│
+├── scripts/                  # 核心处理脚本
+│   ├── parse_tts_papers.py   # 解析分类论文
+│   ├── fetch_abstracts.py    # 抓取摘要
+│   ├── analyze_papers.py     # LLM 分析（可选）
+│   ├── daily_tts_papers.py   # 生成日报
+│   ├── generate_weekly_summary.py
+│   ├── generate_monthly_summary.py
+│   └── run_full_pipeline.py  # 完整 pipeline
+│
+├── processed/                # 处理后数据
+│   ├── by-date/              # 按日期分类的论文
+│   ├── by-topic/             # 按主题分类的论文
+│   ├── abstracts_cache.json
+│   ├── analysis_cache.json
+│   └── index.md
+│
+├── summaries/                # 生成的报告
+│   ├── daily/YYYY-MM-DD.md
+│   ├── weekly/YYYY-Www.md
+│   └── monthly/YYYY-MM.md
+│
+└── run_tts_pipeline.bat      # Windows 批处理一键运行
+
 ```
 
-## Parsing Strategy
+## 快速开始
 
-### Keywords to Flag (Priority Papers)
-**High Priority (TTS Core):**
-- `text-to-speech` / `TTS`
-- `speech synthesis` / `voice synthesis`
-- `neural codec` / `speech codec`
-- `vocoder` / `neural vocoder`
-- `flow matching` / `diffusion` (for TTS)
-- `zero-shot TTS` / `voice cloning`
-- `expressive TTS` / `emotional TTS`
-- `prosody` / `intonation`
-- `real-time TTS` / `streaming TTS` / `low-latency TTS`
-- `long-context TTS` / `long-form synthesis`
-- `multilingual TTS`
-- `voice conversion`
+### 完整流程（推荐）
 
-**Medium Priority (Related):**
-- `audio generation` / `speech generation`
-- `LLM-based TTS` / `speech language model`
-- `discrete tokens` / `semantic tokens`
-- `acoustic tokens`
-- `speech editing`
-- `style control`
-- `phonemizer` / `g2p`
+直接运行完整 pipeline（自动执行所有步骤）：
 
-**Low Priority (Skip unless breakthrough):**
-- `ASR` / `speech recognition`
-- `diarization` / `speaker separation`
-- `voice activity detection`
-- `speaker verification`
-- `audio deepfake` / `synthetic speech detection`
-
-### Excluded Keywords (Filter Out)
-- `speaker diarization`
-- `multi-speaker ASR`
-- `speaker embedding` (unless in TTS context)
-- `voice spoofing` / `anti-spoofing`
-- `speech enhancement` (unless directly tied to TTS)
-
-## Automation Plan
-
-### Daily (via Heartbeat or Cron)
-1. Pull latest from TTS-arxiv-daily
-2. Parse today's markdown entries
-3. Tag based on keywords
-4. Append to `processed/by-date/YYYY-MM-DD.md`
-5. Update `processed/index.md` with metadata
-
-### Weekly Summary (Sunday)
-- Generate report of new papers by topic
-- Highlight top 5 most relevant to user's needs
-- Identify trending techniques (e.g., flow matching, LLM integration)
-
-### Monthly Digest
-- Compare SOTA performance metrics if available
-- Track open-source releases vs academic papers
-- Note which projects become production-ready
-
-## Integration with Current Workflow
-
-### Link to Existing LLM TTS Doc
-- Reference `LLM_TTS_Technologies_2024-2025.md` for comprehensive tech review
-- New papers from daily tracking will feed into periodic updates of that document
-
-### TTS Focus Areas
-Track papers by these core TTS categories:
-
-| Topic File | Focus | Key Papers |
-|-----------|-------|------------|
-| `zero-shot.md` | Voice cloning without fine-tuning | VALL-E, YourTTS, VoiceCraft |
-| `expressive.md` | Emotion, prosody, style control | VibeVoice-TTS, Emotional TTS |
-| `streaming.md` | Real-time, low-latency synthesis | VibeVoice-Realtime, Parakeet |
-| `long-context.md` | >30s coherent generation | VibeVoice-ASR (TTS part), long-form TTS |
-| `multilingual.md` | Cross-lingual voice synthesis | GLM-TTS, Qwen3-TTS, Omni-speech |
-| `codec.md` | Neural codecs, tokenization | Mimi, EnCodec, DAC, SpeechTokenizer |
-
-Each topic file contains:
-- Paper citation (title, authors, arXiv)
-- Key innovations
-- Open-source status (code/model links)
-- Performance metrics (if available)
-- Production readiness assessment
-
-## ✅ Implementation Complete
-
-### Completed Tasks
-- [x] Clone `TTS-arxiv-daily` into `workspace/papers/raw/`
-- [x] Write parser (`parse_tts_papers.py`) extracting 1518 TTS-relevant papers
-- [x] Apply keyword tagging (9 categories: zero-shot, expressive, streaming, long-context, multilingual, codec, llm-based, editing, synthesis, other)
-- [x] Create by-date and by-topic organized files
-- [x] Generate weekly summaries with highlights
-- [x] Integrate highlights into `LLM_TTS_Technologies_2024-2025.md`
-- [x] Set up automation (Windows Scheduled Tasks)
-
-### Automation Configuration
-
-| Task | Frequency | Script | Windows Task Name |
-|------|-----------|--------|-------------------|
-| Daily Parse | Every 12 hours | `parse_tts_papers.py` | `TTS-Papers-Parser` |
-| Weekly Summary | Weekly (Sun 04:00) | `generate_weekly_summary.py` | `TTS-Weekly-Summary` |
-| Monthly Summary | Monthly (1st 05:00) | `generate_monthly_summary.py` | `TTS-Monthly-Summary` |
-
-### Output Structure
-```
-workspace/papers/
-├── raw/tts-arxiv-daily/          # Source git clone (auto-updates)
-├── processed/
-│   ├── by-date/YYYY-MM-DD.md    # 1612 total dates (2017-2026)
-│   ├── by-topic/*.md            # 9 category files
-│   └── index.md                 # Master index with stats
-├── summaries/
-│   ├── weekly/YYYY-WWW.md      # Weekly reports (auto)
-│   └── monthly/YYYY-MM.md      # Monthly reports (auto)
-└── scripts/
-    ├── parse_tts_papers.py
-    ├── generate_weekly_summary.py
-    └── generate_monthly_summary.py
+```bash
+python papers/scripts/run_full_pipeline.py --skip-analysis
 ```
 
-### Integration Points
-- **Main Document**: `LLM_TTS_Technologies_2024-2025.md` includes `<!-- LATEST_HIGHLIGHTS_START -->` section updated weekly with top papers.
+或使用批处理文件（Windows）：
 
-### Future Enhancements
-- [ ] Add email digest of weekly highlights
-- [ ] Create RSS feed from highlights
-- [ ] Implement incremental parsing (only new papers)
-- [ ] Add search/indexing (ripgrep or whoosh)
-- [ ] Track open-source releases vs academic papers
+```cmd
+papers\run_tts_pipeline.bat
+```
+
+### 单独步骤
+
+如果只想执行特定步骤：
+
+1. **更新论文列表**（从 arxiv 抓取）：
+```bash
+cd papers/raw/tts-arxiv-daily
+python daily_arxiv.py --config_path config.yaml
+```
+
+2. **解析并分类**：
+```bash
+python papers/scripts/parse_tts_papers.py
+```
+
+3. **抓取摘要**：
+```bash
+python papers/scripts/fetch_abstracts.py
+```
+
+4. **LLM 分析**（需配置 DeepSeek API）：
+```bash
+python papers/scripts/analyze_papers.py
+```
+
+5. **生成日报/周报/月报**：
+```bash
+python papers/scripts/daily_tts_papers.py 2026-02-02  # 指定日期
+python papers/scripts/generate_weekly_summary.py
+python papers/scripts/generate_monthly_summary.py 2026-02
+```
+
+## 配置
+
+### LLM 分析（可选）
+
+如需启用 LLM 论文分析，需在 OpenClaw 配置文件中添加 DeepSeek provider：
+
+配置路径：`~\.openclaw\openclaw.json`
+
+```json
+{
+  "models": {
+    "providers": {
+      "deepseek": {
+        "apiKey": "your-api-key",
+        "baseUrl": "https://api.deepseek.com"
+      }
+    }
+  }
+}
+```
+
+使用 `--skip-analysis` 参数可跳过 LLM 分析以节省时间和配额。
+
+### 自动调度（Cron Jobs）
+
+已在 OpenClaw 中配置自动化任务：
+
+- **TTS-Daily-Crawl**：每天 00:20，更新论文列表
+- **TTS-Papers-Crawl**：每天 00:30，解析分类 + 抓取摘要
+- **TTS-Daily-Summary**：每天 01:00，生成日报
+- **TTS-Papers-Analysis**：每天 01:30，LLM 分析（可选）
+- **TTS-Weekly-Summary**：每周日 04:00，生成周报
+- **TTS-Monthly-Summary**：每月 1 号 05:00，生成月报
+- **Git-Push-Daily**：每天 06:30，git 推送
+
+## 输出
+
+- **日报**：`papers/summaries/daily/YYYY-MM-DD.md`
+- **周报**：`papers/summaries/weekly/YYYY-Www.md`
+- **月报**：`papers/summaries/monthly/YYYY-MM.md`
+
+## 编码处理
+
+系统已针对 Windows (GBK) 兼容性进行优化：
+- 文件读取时自动 fallback 到 UTF-8/GBK 编码
+- 移除了所有 emoji 符号
+- 所有路径使用绝对路径防止拼接错误
+
+## 报告示例
+
+日报包含：
+- 当日新论文概览
+- 按主题分类统计
+- 重点论文摘要
+- LLM 分析结果（如启用）
+
+周报/月报包含周期趋势、热点主题和重要发现。
+
+## 故障排除
+
+**问题：`UnicodeDecodeError`**
+- 确保脚本使用 UTF-8/GBK fallback 编码读取文件
+- 检查原始数据文件编码
+
+**问题：路径错误**
+- 所有脚本使用基于 `__file__` 的绝对路径
+- 确保目录结构完整
+
+**问题：LLM 分析失败**
+- 检查 openclaw.json 配置
+- 确认 DeepSeek API 配额充足
+- 使用 `--skip-analysis` 跳过分析
+
+## 维护
+
+- 定期清理 `processed/` 缓存释放磁盘空间
+- 调整 `parse_tts_papers.py` 中的关键词规则以优化分类
+- 修改 `papers/raw/tts-arxiv-daily/config.yaml` 定制爬虫行为
+
+## 许可证
+
+本项目基于 [tqsar/daily-arxiv](https://github.com/tqsar/daily-arxiv) 改造，原始来源：[Vincentqyw/cv-arxiv-daily](https://github.com/Vincentqyw/cv-arxiv-daily)。
 
 ---
-**Created**: 2026-02-03
-**Status**: Planning phase, automation pending
+
+**最后更新**：2026-02-04

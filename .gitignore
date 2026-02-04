@@ -1,8 +1,15 @@
 # 忽略 TTS pipeline 缓存（二进制大文件）
-papers/processed/pdf_cache/
-papers/raw/tts-arxiv-daily/.git/
+processed/pdf_cache/
+raw/tts-arxiv-daily/.git/
 
-# OpenClaw 原有忽略
-node_modules/
-npm-debug.log
+# 忽略 OpenClaw 系统文件（仅用于本工作区，不推送到 papers 仓库）
+AGENTS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+IDENTITY.md
+MEMORY.md
+SOUL.md
+TOOLS.md
+USER.md
+memory/
 .openclaw/

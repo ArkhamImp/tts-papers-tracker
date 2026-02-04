@@ -11,9 +11,10 @@ import fitz  # PyMuPDF
 from pathlib import Path
 from datetime import datetime, timedelta
 
-# 路径定义
-RAW_DIR = Path("papers/raw/tts-arxiv-daily")
-PROCESSED_DIR = Path("papers/processed")
+# 路径定义（基于脚本位置）
+SCRIPT_DIR = Path(__file__).parent
+RAW_DIR = SCRIPT_DIR.parent / "raw" / "tts-arxiv-daily"
+PROCESSED_DIR = SCRIPT_DIR.parent / "processed"
 ABSTRACT_CACHE = PROCESSED_DIR / "abstracts_cache.json"
 ANALYSIS_CACHE = PROCESSED_DIR / "analysis_cache.json"
 PDF_CACHE = PROCESSED_DIR / "pdf_cache"  # 存放下载的 PDF

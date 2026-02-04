@@ -13,19 +13,19 @@
 
 import sys
 import json
-import re
 import subprocess
 from pathlib import Path
 from datetime import datetime, timedelta
 import argparse
 
-# 配置路径
-RAW_DIR = Path("papers/raw/tts-arxiv-daily")
-PROCESSED_DIR = Path("papers/processed")
+# 基于脚本位置的路径配置
+SCRIPT_DIR = Path(__file__).parent
+RAW_DIR = SCRIPT_DIR.parent / "raw" / "tts-arxiv-daily"
+PROCESSED_DIR = SCRIPT_DIR.parent / "processed"
 BY_DATE_DIR = PROCESSED_DIR / "by-date"
-DAILY_SUMMARIES_DIR = Path("papers/summaries/daily")
-WEEKLY_SUMMARIES_DIR = Path("papers/summaries/weekly")
-MONTHLY_SUMMARIES_DIR = Path("papers/summaries/monthly")
+DAILY_SUMMARIES_DIR = SCRIPT_DIR.parent / "summaries" / "daily"
+WEEKLY_SUMMARIES_DIR = SCRIPT_DIR.parent / "summaries" / "weekly"
+MONTHLY_SUMMARIES_DIR = SCRIPT_DIR.parent / "summaries" / "monthly"
 
 # 确保目录存在
 for dir_path in [PROCESSED_DIR, BY_DATE_DIR, DAILY_SUMMARIES_DIR, WEEKLY_SUMMARIES_DIR, MONTHLY_SUMMARIES_DIR]:
@@ -45,25 +45,27 @@ def run_command(cmd, description):
 
 def step1_update_paper_list():
     """步骤1: 从 arxiv 更新论文列表"""
-    script_dir = Path("papers/raw/tts-arxiv-daily")
-    config_file = script_dir / "config.yaml"
-    # 使用绝对路径避免路径拼接错误
-    cmd = [sys.executable, str(script_dir.absolute() / "daily_arxiv.py"), "--config_path", str(config_file.absolute())]
-    result = subprocess.run(cmd, capture_output=True, text=True, cwd=str(script_dir))
+    daily_arxiv_script = RAW_DIR / "daily_arxiv.py"
+    config_file = RAW_DIR / "config.yaml"
+    # 设置工作目录为 RAW_DIR，确保相对路径正确
+    result = subprocess.run([sys.executable, str(daily_arxiv_script), "--config_path", str(config_file)],
+                          capture_output=True, text=True, cwd=str(RAW_DIR))
     if result.returncode != 0:
         print(f"失败: 更新论文列表")
         print(f"STDERR: {result.stderr}")
         return False
-    print("成功: 论文列表更新完成")
+    print(f"成功: 论文列表更新完成")
     return True
 
 def step2_parse_and_classify():
     """步骤2: 解析并分类论文"""
-    return run_command([sys.executable, "scripts/parse_tts_papers.py"], "解析并分类论文")
+    parse_script = SCRIPT_DIR / "parse_tts_papers.py"
+    return run_command([sys.executable, str(parse_script)], "解析并分类论文")
 
 def step3_fetch_abstracts():
     """步骤3: 抓取论文摘要"""
-    return run_command([sys.executable, "scripts/fetch_abstracts.py"], "抓取论文摘要")
+    fetch_script = SCRIPT_DIR / "fetch_abstracts.py"
+    return run_command([sys.executable, str(fetch_script)], "抓取论文摘要")
 
 def step4_analyze_papers():
     """步骤4: LLM 分析论文 (可选)"""
@@ -81,7 +83,8 @@ def step4_analyze_papers():
         return True
 
     print("开始分析论文 (可能需要较长时间，且消耗 API 配额)...")
-    return run_command([sys.executable, "scripts/analyze_papers.py"], "LLM 论文分析")
+    analyze_script = SCRIPT_DIR / "analyze_papers.py"
+    return run_command([sys.executable, str(analyze_script)], "LLM 论文分析")
 
 def step5_generate_summaries(target_date=None):
     """步骤5: 生成日报、周报、月报"""
@@ -116,18 +119,21 @@ def step5_generate_summaries(target_date=None):
 
     # 生成日报
     print(f"\n生成日报: {report_date}")
-    success = run_command([sys.executable, "scripts/daily_tts_papers.py", str(report_date)], f"日报生成 ({report_date})")
+    daily_script = SCRIPT_DIR / "daily_tts_papers.py"
+    success = run_command([sys.executable, str(daily_script), str(report_date)], f"日报生成 ({report_date})")
 
     # 生成周报
     recent_dates = all_dates[:7] if len(all_dates) >= 7 else all_dates
     if recent_dates:
         print(f"\n生成周报: {recent_dates[-1]} 至 {recent_dates[0]}")
-        success &= run_command([sys.executable, "scripts/generate_weekly_summary.py"], "周报生成")
+        weekly_script = SCRIPT_DIR / "generate_weekly_summary.py"
+        success &= run_command([sys.executable, str(weekly_script)], "周报生成")
 
     # 生成月报
     current_month = datetime.now().strftime("%Y-%m")
     print(f"\n生成月报: {current_month}")
-    success &= run_command([sys.executable, "scripts/generate_monthly_summary.py", current_month], "月报生成")
+    monthly_script = SCRIPT_DIR / "generate_monthly_summary.py"
+    success &= run_command([sys.executable, str(monthly_script), current_month], "月报生成")
 
     return success
 

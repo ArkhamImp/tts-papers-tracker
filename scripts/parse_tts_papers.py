@@ -9,9 +9,10 @@ import time
 import requests
 from pathlib import Path
 
-# 配置
-RAW_DIR = Path("papers/raw/tts-arxiv-daily")
-PROCESSED_DIR = Path("papers/processed")
+# 基于脚本位置的路径配置
+SCRIPT_DIR = Path(__file__).parent
+RAW_DIR = SCRIPT_DIR.parent / "raw" / "tts-arxiv-daily"
+PROCESSED_DIR = SCRIPT_DIR.parent / "processed"
 
 # 关键词规则
 KEYWORDS = {

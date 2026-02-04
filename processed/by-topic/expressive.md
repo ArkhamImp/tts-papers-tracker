@@ -1,5 +1,17 @@
 # Expressive Papers
 
+## 2026-02-02
+
+- **LipSody: Lip-to-Speech Synthesis with Enhanced Prosody Consistency**
+  - Authors: Jaejun Lee et.al.
+  - arXiv: [2602.01908](https://arxiv.org/abs/2602.01908)
+
+## 2026-02-01
+
+- **EmoAra: Emotion-Preserving English Speech Transcription and Cross-Lingual Translation with Arabic Text-to-Speech**
+  - Authors: Besher Hassan et.al.
+  - arXiv: [2602.01170](https://arxiv.org/abs/2602.01170)
+
 ## 2026-01-30
 
 - **EmoShift: Lightweight Activation Steering for Enhanced Emotion-Aware Speech Synthesis**
@@ -486,7 +498,7 @@
 ## 2025-05-13
 
 - **Investigating self-supervised features for expressive, multilingual voice conversion**
-  - Authors: Álvaro Martín-Cortinas et.al.
+  - Authors: 脕lvaro Mart铆n-Cortinas et.al.
   - arXiv: [2505.08278](https://arxiv.org/abs/2505.08278)
 
 ## 2025-04-22

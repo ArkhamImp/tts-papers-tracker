@@ -63,7 +63,7 @@
 ## 2025-08-20
 
 - **Improving Resource-Efficient Speech Enhancement via Neural Differentiable DSP Vocoder Refinement**
-  - Authors: Heitor R. Guimarães et.al.
+  - Authors: Heitor R. Guimar茫es et.al.
   - arXiv: [2508.14709](https://arxiv.org/abs/2508.14709)
 
 ## 2025-08-11
@@ -129,7 +129,7 @@
 ## 2025-02-18
 
 - **High-Fidelity Music Vocoder using Neural Audio Codecs**
-  - Authors: Luca A. Lanzendörfer et.al.
+  - Authors: Luca A. Lanzend枚rfer et.al.
   - arXiv: [2502.12759](https://arxiv.org/abs/2502.12759)
 
 ## 2025-01-02

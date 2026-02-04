@@ -10,7 +10,8 @@ import requests
 from pathlib import Path
 from datetime import datetime, timedelta
 
-PROCESSED_DIR = Path("papers/processed")
+SCRIPT_DIR = Path(__file__).parent
+PROCESSED_DIR = SCRIPT_DIR.parent / "processed"
 ABSTRACT_CACHE = PROCESSED_DIR / "abstracts_cache.json"
 BY_DATE_DIR = PROCESSED_DIR / "by-date"
 

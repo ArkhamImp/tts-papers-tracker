@@ -10,11 +10,12 @@ import requests
 from pathlib import Path
 from datetime import datetime
 
-RAW_DIR = Path("papers/raw/tts-arxiv-daily")
-PROCESSED_DIR = Path("papers/processed")
+SCRIPT_DIR = Path(__file__).parent
+RAW_DIR = SCRIPT_DIR.parent / "raw" / "tts-arxiv-daily"
+PROCESSED_DIR = SCRIPT_DIR.parent / "processed"
 ABSTRACT_CACHE = PROCESSED_DIR / "abstracts_cache.json"
 BY_DATE_DIR = PROCESSED_DIR / "by-date"
-DAILY_SUMMARIES_DIR = Path("papers/summaries/daily")
+DAILY_SUMMARIES_DIR = SCRIPT_DIR.parent / "summaries" / "daily"
 DAILY_SUMMARIES_DIR.mkdir(parents=True, exist_ok=True)
 
 KEYWORDS = {

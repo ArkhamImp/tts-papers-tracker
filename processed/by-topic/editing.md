@@ -1,5 +1,11 @@
 # Editing Papers
 
+## 2026-01-31
+
+- **Edit Content, Preserve Acoustics: Imperceptible Text-Based Speech Editing via Self-Consistency Rewards**
+  - Authors: Yong Ren et.al.
+  - arXiv: [2602.00560](https://arxiv.org/abs/2602.00560)
+
 ## 2026-01-23
 
 - **SonoEdit: Null-Space Constrained Knowledge Editing for Pronunciation Correction in LLM-Based TTS**

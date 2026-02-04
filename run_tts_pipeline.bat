@@ -12,7 +12,7 @@ REM 切换到脚本目录
 cd /d "C:\Users\Administrator\.openclaw\workspace"
 
 REM 运行 pipeline（跳过 LLM 分析以节省时间和配额）
-python scripts\run_full_pipeline.py --skip-analysis
+python papers\scripts\run_full_pipeline.py --skip-analysis
 if ERRORLEVEL 1 (
     echo.
     echo ❌ Pipeline 执行失败

@@ -8,9 +8,10 @@ from datetime import datetime, timedelta, date
 import re
 import json
 
-PROCESSED_DIR = Path("papers/processed")
+SCRIPT_DIR = Path(__file__).parent
+PROCESSED_DIR = SCRIPT_DIR.parent / "processed"
 BY_DATE_DIR = PROCESSED_DIR / "by-date"
-SUMMARIES_DIR = Path("papers/summaries/weekly")
+SUMMARIES_DIR = SCRIPT_DIR.parent / "summaries" / "weekly"
 SUMMARIES_DIR.mkdir(parents=True, exist_ok=True)
 
 def load_analysis_cache():
