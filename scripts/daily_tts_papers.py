@@ -8,7 +8,7 @@ import time
 import json
 import requests
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
 SCRIPT_DIR = Path(__file__).parent
 RAW_DIR = SCRIPT_DIR.parent / "raw" / "tts-arxiv-daily"

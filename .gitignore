@@ -2,14 +2,3 @@
 processed/pdf_cache/
 raw/tts-arxiv-daily/.git/
 
-# 忽略 OpenClaw 系统文件（仅用于本工作区，不推送到 papers 仓库）
-AGENTS.md
-BOOTSTRAP.md
-HEARTBEAT.md
-IDENTITY.md
-MEMORY.md
-SOUL.md
-TOOLS.md
-USER.md
-memory/
-.openclaw/

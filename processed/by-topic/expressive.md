@@ -1,5 +1,11 @@
 # Expressive Papers
 
+## 2026-02-03
+
+- **CoCoEmo: Composable and Controllable Human-Like Emotional TTS via Activation Steering**
+  - Authors: Siyi Wang et.al.
+  - arXiv: [2602.03420](https://arxiv.org/abs/2602.03420)
+
 ## 2026-02-02
 
 - **LipSody: Lip-to-Speech Synthesis with Enhanced Prosody Consistency**
@@ -498,7 +504,7 @@
 ## 2025-05-13
 
 - **Investigating self-supervised features for expressive, multilingual voice conversion**
-  - Authors: 脕lvaro Mart铆n-Cortinas et.al.
+  - Authors: Álvaro Martín-Cortinas et.al.
   - arXiv: [2505.08278](https://arxiv.org/abs/2505.08278)
 
 ## 2025-04-22

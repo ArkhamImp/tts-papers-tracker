@@ -30,11 +30,11 @@ def load_config():
         raise FileNotFoundError(f"Config not found: {config_path}")
     with open(config_path, 'r', encoding='utf-8') as f:
         cfg = json.load(f)
-    model = cfg["models"]["providers"]["qwen"]
+    model = cfg["models"]["providers"]["qwen"]["models"][0]
     return {
-        "api_key": mdoel['apiKey'],
-        "base_url": mdoel['baseUrl'],
-        "model": mdoel['models']['id']
+        "api_key": cfg["models"]["providers"]["qwen"]["apiKey"],
+        "base_url": cfg["models"]["providers"]["qwen"]["baseUrl"],
+        "model": model['id']
     }
 
 def load_json(path):

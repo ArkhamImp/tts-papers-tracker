@@ -33,7 +33,7 @@
 ## 2026-01-16
 
 - **F-Actor: Controllable Conversational Behaviour in Full-Duplex Models**
-  - Authors: Maike Z眉fle et.al.
+  - Authors: Maike Züfle et.al.
   - arXiv: [2601.11329](https://arxiv.org/abs/2601.11329)
 
 ## 2026-01-15
@@ -153,7 +153,7 @@
 ## 2025-12-03
 
 - **Head, posture, and full-body gestures in interactive communication**
-  - Authors: 慕ubo拧 Hl谩dek et.al.
+  - Authors: Ľuboš Hládek et.al.
   - arXiv: [2512.03636](https://arxiv.org/abs/2512.03636)
 - **A Convolutional Framework for Mapping Imagined Auditory MEG into Listened Brain Responses**
   - Authors: Maryam Maghsoudi et.al.
@@ -252,7 +252,7 @@
 ## 2025-11-24
 
 - **Evaluating Objective Speech Quality Metrics for Neural Audio Codecs**
-  - Authors: Luca A. Lanzend枚rfer et.al.
+  - Authors: Luca A. Lanzendörfer et.al.
   - arXiv: [2511.19734](https://arxiv.org/abs/2511.19734)
 - **A Layered Protocol Architecture for the Internet of Agents**
   - Authors: Charles Fleming et.al.
@@ -440,7 +440,7 @@
 
 ## 2025-10-28
 
-- **Lev茅e d'ambigu茂t茅s par grammaires locales**
+- **Levée d'ambiguïtés par grammaires locales**
   - Authors: Eric G. C. Laporte et.al.
   - arXiv: [2510.24530](https://arxiv.org/abs/2510.24530)
 - **Bayesian Speech synthesizers Can Learn from Multiple Teachers**
@@ -1014,7 +1014,7 @@
   - Authors: Sameer Khurana et.al.
   - arXiv: [2506.15456](https://arxiv.org/abs/2506.15456)
 - **EmojiVoice: Towards long-term controllable expressivity in robot speech**
-  - Authors: Paige Tutt枚s铆 et.al.
+  - Authors: Paige Tuttösí et.al.
   - arXiv: [2506.15085](https://arxiv.org/abs/2506.15085)
 
 ## 2025-06-17
@@ -1452,7 +1452,7 @@
 ## 2025-01-13
 
 - **Exploring the encoding of linguistic representations in the Fully-Connected Layer of generative CNNs for Speech**
-  - Authors: Bruno Ferenc 艩egedin et.al.
+  - Authors: Bruno Ferenc Šegedin et.al.
   - arXiv: [2501.07726](https://arxiv.org/abs/2501.07726)
 
 ## 2025-01-11
@@ -1617,13 +1617,13 @@
 ## 2024-09-20
 
 - **On the Feasibility of Fully AI-automated Vishing Attacks**
-  - Authors: Jo茫o Figueiredo et.al.
+  - Authors: João Figueiredo et.al.
   - arXiv: [2409.13793](https://arxiv.org/abs/2409.13793)
 
 ## 2024-09-19
 
 - **Enhancing Synthetic Training Data for Speech Commands: From ASR-Based Filtering to Domain Adaptation in SSL Latent Space**
-  - Authors: Sebasti茫o Quintas et.al.
+  - Authors: Sebastião Quintas et.al.
   - arXiv: [2409.12745](https://arxiv.org/abs/2409.12745)
 - **The Art of Storytelling: Multi-Agent Generative AI for Dynamic Multimodal Narratives**
   - Authors: Samee Arif et.al.
@@ -1794,7 +1794,7 @@
 ## 2024-06-07
 
 - **Harder or Different? Understanding Generalization of Audio Deepfake Detection**
-  - Authors: Nicolas M. M眉ller et.al.
+  - Authors: Nicolas M. Müller et.al.
   - arXiv: [2406.03512](https://arxiv.org/abs/2406.03512)
 
 ## 2024-06-06
@@ -1893,7 +1893,7 @@
 ## 2024-02-09
 
 - **A New Approach to Voice Authenticity**
-  - Authors: Nicolas M. M眉ller et.al.
+  - Authors: Nicolas M. Müller et.al.
   - arXiv: [2402.06304](https://arxiv.org/abs/2402.06304)
 
 ## 2024-02-08
@@ -1953,7 +1953,7 @@
 ## 2023-12-27
 
 - **AE-Flow: AutoEncoder Normalizing Flow**
-  - Authors: Jakub Mosi艅ski et.al.
+  - Authors: Jakub Mosiński et.al.
   - arXiv: [2312.16552](https://arxiv.org/abs/2312.16552)
 
 ## 2023-12-22
@@ -2523,7 +2523,7 @@
 ## 2022-04-21
 
 - **Does Audio Deepfake Detection Generalize?**
-  - Authors: Nicolas M. M眉ller et.al.
+  - Authors: Nicolas M. Müller et.al.
   - arXiv: [2203.16263](https://arxiv.org/abs/2203.16263)
 
 ## 2022-04-20

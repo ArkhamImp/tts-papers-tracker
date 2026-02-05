@@ -432,7 +432,7 @@
 ## 2024-10-09
 
 - **Efficient training strategies for natural sounding speech synthesis and speaker adaptation based on FastPitch**
-  - Authors: Teodora R膬gman et.al.
+  - Authors: Teodora Răgman et.al.
   - arXiv: [2410.06787](https://arxiv.org/abs/2410.06787)
 
 ## 2024-10-06
