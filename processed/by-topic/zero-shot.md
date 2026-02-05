@@ -1,5 +1,11 @@
 # Zero Shot Papers
 
+## 2026-02-04
+
+- **PFluxTTS: Hybrid Flow-Matching TTS with Robust Cross-Lingual Voice Cloning and Inference-Time Model Fusion**
+  - Authors: Vikentii Pankov et.al.
+  - arXiv: [2602.04160](https://arxiv.org/abs/2602.04160)
+
 ## 2026-01-28
 
 - **Erasing Your Voice Before It's Heard: Training-free Speaker Unlearning for Zero-shot Text-to-Speech**

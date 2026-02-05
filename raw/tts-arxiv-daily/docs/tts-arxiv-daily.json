@@ -1618,7 +1618,10 @@
     "2602.00560": "|**2026-01-31**|**Edit Content, Preserve Acoustics: Imperceptible Text-Based Speech Editing via Self-Consistency Rewards**|Yong Ren et.al.|[2602.00560](http://arxiv.org/abs/2602.00560)|null|\n",
     "2602.00295": "|**2026-01-30**|**Multi-Speaker Conversational Audio Deepfake: Taxonomy, Dataset and Pilot Study**|Alabi Ahmed et.al.|[2602.00295](http://arxiv.org/abs/2602.00295)|null|\n",
     "2602.03420": "|**2026-02-03**|**CoCoEmo: Composable and Controllable Human-Like Emotional TTS via Activation Steering**|Siyi Wang et.al.|[2602.03420](http://arxiv.org/abs/2602.03420)|null|\n",
-    "2602.02734": "|**2026-02-02**|**WAXAL: A Large-Scale Multilingual African Language Speech Corpus**|Abdoulaye Diack et.al.|[2602.02734](http://arxiv.org/abs/2602.02734)|null|\n",
-    "2602.02591": "|**2026-02-01**|**VividVoice: A Unified Framework for Scene-Aware Visually-Driven Speech Synthesis**|Chengyuan Ma et.al.|[2602.02591](http://arxiv.org/abs/2602.02591)|null|\n"
+    "2602.02734": "|**2026-02-04**|**WAXAL: A Large-Scale Multilingual African Language Speech Corpus**|Abdoulaye Diack et.al.|[2602.02734](http://arxiv.org/abs/2602.02734)|null|\n",
+    "2602.02591": "|**2026-02-01**|**VividVoice: A Unified Framework for Scene-Aware Visually-Driven Speech Synthesis**|Chengyuan Ma et.al.|[2602.02591](http://arxiv.org/abs/2602.02591)|null|\n",
+    "2602.04535": "|**2026-02-04**|**HoliAntiSpoof: Audio LLM for Holistic Speech Anti-Spoofing**|Xuenan Xu et.al.|[2602.04535](http://arxiv.org/abs/2602.04535)|null|\n",
+    "2602.04307": "|**2026-02-04**|**Universal Robust Speech Adaptation for Cross-Domain Speech Recognition and Enhancement**|Chien-Chun Wang et.al.|[2602.04307](http://arxiv.org/abs/2602.04307)|null|\n",
+    "2602.04160": "|**2026-02-04**|**PFluxTTS: Hybrid Flow-Matching TTS with Robust Cross-Lingual Voice Cloning and Inference-Time Model Fusion**|Vikentii Pankov et.al.|[2602.04160](http://arxiv.org/abs/2602.04160)|null|\n"
   }
 }

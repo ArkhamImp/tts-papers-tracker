@@ -1,7 +1,10 @@
 # Multilingual Papers
 
-## 2026-02-02
+## 2026-02-04
 
+- **PFluxTTS: Hybrid Flow-Matching TTS with Robust Cross-Lingual Voice Cloning and Inference-Time Model Fusion**
+  - Authors: Vikentii Pankov et.al.
+  - arXiv: [2602.04160](https://arxiv.org/abs/2602.04160)
 - **WAXAL: A Large-Scale Multilingual African Language Speech Corpus**
   - Authors: Abdoulaye Diack et.al.
   - arXiv: [2602.02734](https://arxiv.org/abs/2602.02734)

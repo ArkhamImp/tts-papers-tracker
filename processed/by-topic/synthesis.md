@@ -1,5 +1,11 @@
 # Synthesis Papers
 
+## 2026-02-04
+
+- **PFluxTTS: Hybrid Flow-Matching TTS with Robust Cross-Lingual Voice Cloning and Inference-Time Model Fusion**
+  - Authors: Vikentii Pankov et.al.
+  - arXiv: [2602.04160](https://arxiv.org/abs/2602.04160)
+
 ## 2026-02-03
 
 - **CoCoEmo: Composable and Controllable Human-Like Emotional TTS via Activation Steering**

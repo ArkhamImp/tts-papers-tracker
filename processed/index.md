@@ -186,3 +186,17 @@
 - `synthesis`: 704 papers
 - `zero-shot`: 152 papers
 
+## Updated 2026-02-06 00:30
+
+- **Total TTS-relevant papers**: 1526
+- `codec`: 50 papers
+- `editing`: 17 papers
+- `expressive`: 242 papers
+- `llm-based`: 141 papers
+- `long-context`: 8 papers
+- `multilingual`: 267 papers
+- `other`: 497 papers
+- `streaming`: 77 papers
+- `synthesis`: 705 papers
+- `zero-shot`: 153 papers
+
