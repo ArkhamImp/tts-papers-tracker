@@ -39,7 +39,7 @@
 ## 2024-02-15
 
 - **BASE TTS: Lessons from building a billion-parameter Text-to-Speech model on 100K hours of data**
-  - Authors: Mateusz Łajszczak et.al.
+  - Authors: Mateusz 艁ajszczak et.al.
   - arXiv: [2402.08093](https://arxiv.org/abs/2402.08093)
 
 ## 2023-10-07

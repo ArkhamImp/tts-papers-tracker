@@ -1,5 +1,14 @@
 # Synthesis Papers
 
+## 2026-02-05
+
+- **Zero-Shot TTS With Enhanced Audio Prompts: Bsc Submission For The 2026 Wildspoof Challenge TTS Track**
+  - Authors: Jose Giraldo et.al.
+  - arXiv: [2602.05770](https://arxiv.org/abs/2602.05770)
+- **ARCHI-TTS: A flow-matching-based Text-to-Speech Model with Self-supervised Semantic Aligner and Accelerated Inference**
+  - Authors: Chunyat Wu et.al.
+  - arXiv: [2602.05207](https://arxiv.org/abs/2602.05207)
+
 ## 2026-02-04
 
 - **PFluxTTS: Hybrid Flow-Matching TTS with Robust Cross-Lingual Voice Cloning and Inference-Time Model Fusion**
@@ -440,7 +449,7 @@
 - **Discrete-time diffusion-like models for speech synthesis**
   - Authors: Xiaozhou Tan et.al.
   - arXiv: [2509.18470](https://arxiv.org/abs/2509.18470)
-- **TMD-TTS: A Unified Tibetan Multi-Dialect Text-to-Speech Synthesis for Ü-Tsang, Amdo and Kham Speech Dataset Generation**
+- **TMD-TTS: A Unified Tibetan Multi-Dialect Text-to-Speech Synthesis for 脺-Tsang, Amdo and Kham Speech Dataset Generation**
   - Authors: Yutong Liu et.al.
   - arXiv: [2509.18060](https://arxiv.org/abs/2509.18060)
 - **Nord-Parl-TTS: Finnish and Swedish TTS Dataset from Parliament Speech**
@@ -624,7 +633,7 @@
 ## 2025-08-08
 
 - **Improved Dysarthric Speech to Text Conversion via TTS Personalization**
-  - Authors: Péter Mihajlik et.al.
+  - Authors: P茅ter Mihajlik et.al.
   - arXiv: [2508.06391](https://arxiv.org/abs/2508.06391)
 - **Llasa+: Free Lunch for Accelerated and Streaming Llama-Based Speech Synthesis**
   - Authors: Wenjie Tian et.al.
@@ -747,7 +756,7 @@
 ## 2025-07-03
 
 - **Open-Source System for Multilingual Translation and Cloned Speech Synthesis**
-  - Authors: Mateo Cámara et.al.
+  - Authors: Mateo C谩mara et.al.
   - arXiv: [2507.02530](https://arxiv.org/abs/2507.02530)
 - **JoyTTS: LLM-based Spoken Chatbot With Voice Cloning**
   - Authors: Fangru Zhou et.al.
@@ -756,7 +765,7 @@
 ## 2025-07-02
 
 - **Analyzing and Improving Speaker Similarity Assessment for Speech Synthesis**
-  - Authors: Marc-André Carbonneau et.al.
+  - Authors: Marc-Andr茅 Carbonneau et.al.
   - arXiv: [2507.02176](https://arxiv.org/abs/2507.02176)
 - **A Dataset for Automatic Assessment of TTS Quality in Spanish**
   - Authors: Alejandro Sosa Welford et.al.
@@ -777,7 +786,7 @@
 ## 2025-06-29
 
 - **You Sound a Little Tense: L2 Tailored Clear TTS Using Durational Vowel Properties**
-  - Authors: Paige Tuttösí et.al.
+  - Authors: Paige Tutt枚s铆 et.al.
   - arXiv: [2506.23367](https://arxiv.org/abs/2506.23367)
 
 ## 2025-06-27
@@ -827,7 +836,7 @@
 - **Optimizing Multilingual Text-To-Speech with Accents & Emotions**
   - Authors: Pranav Pawar et.al.
   - arXiv: [2506.16310](https://arxiv.org/abs/2506.16310)
-- **VS-Singer: Vision-Guided Stereo Singing Voice Synthesis with Consistency Schrödinger Bridge**
+- **VS-Singer: Vision-Guided Stereo Singing Voice Synthesis with Consistency Schr枚dinger Bridge**
   - Authors: Zijing Zhao et.al.
   - arXiv: [2506.16020](https://arxiv.org/abs/2506.16020)
 
@@ -1227,7 +1236,7 @@
 ## 2025-02-11
 
 - **LoRP-TTS: Low-Rank Personalized Text-To-Speech**
-  - Authors: Łukasz Bondaruk et.al.
+  - Authors: 艁ukasz Bondaruk et.al.
   - arXiv: [2502.07562](https://arxiv.org/abs/2502.07562)
 - **Advanced Zero-Shot Text-to-Speech for Background Removal and Preservation with Controllable Masked Speech Prediction**
   - Authors: Leying Zhang et.al.
@@ -1485,7 +1494,7 @@
 ## 2024-10-30
 
 - **Lina-Speech: Gated Linear Attention is a Fast and Parameter-Efficient Learner for text-to-speech synthesis**
-  - Authors: Théodor Lemerle et.al.
+  - Authors: Th茅odor Lemerle et.al.
   - arXiv: [2410.23320](https://arxiv.org/abs/2410.23320)
 
 ## 2024-10-29
@@ -1545,7 +1554,7 @@
 ## 2024-10-17
 
 - **Enhancing Crowdsourced Audio for Text-to-Speech Models**
-  - Authors: José Giraldo et.al.
+  - Authors: Jos茅 Giraldo et.al.
   - arXiv: [2410.13357](https://arxiv.org/abs/2410.13357)
 - **DART: Disentanglement of Accent and Speaker Representation in Multispeaker Text-to-Speech**
   - Authors: Jan Melechovsky et.al.
@@ -1575,7 +1584,7 @@
 ## 2024-10-09
 
 - **Efficient training strategies for natural sounding speech synthesis and speaker adaptation based on FastPitch**
-  - Authors: Teodora Răgman et.al.
+  - Authors: Teodora R膬gman et.al.
   - arXiv: [2410.06787](https://arxiv.org/abs/2410.06787)
 - **Bahasa Harmony: A Comprehensive Dataset for Bahasa Text-to-Speech Synthesis with Discrete Codec Modeling of EnGen-TTS**
   - Authors: Onkar Kishor Susladkar et.al.
@@ -1995,7 +2004,7 @@
 ## 2024-06-06
 
 - **Small-E: Small Language Model with Linear Attention for Efficient Speech Synthesis**
-  - Authors: Théodor Lemerle et.al.
+  - Authors: Th茅odor Lemerle et.al.
   - arXiv: [2406.04467](https://arxiv.org/abs/2406.04467)
 - **Total-Duration-Aware Duration Modeling for Text-to-Speech Systems**
   - Authors: Sefik Emre Eskimez et.al.
@@ -2226,7 +2235,7 @@
 ## 2024-02-15
 
 - **BASE TTS: Lessons from building a billion-parameter Text-to-Speech model on 100K hours of data**
-  - Authors: Mateusz Łajszczak et.al.
+  - Authors: Mateusz 艁ajszczak et.al.
   - arXiv: [2402.08093](https://arxiv.org/abs/2402.08093)
 
 ## 2024-02-14
@@ -3564,7 +3573,7 @@
 ## 2021-07-13
 
 - **Extending Text-to-Speech Synthesis with Articulatory Movement Prediction using Ultrasound Tongue Imaging**
-  - Authors: Tamás Gábor Csapó et.al.
+  - Authors: Tam谩s G谩bor Csap贸 et.al.
   - arXiv: [2107.05550](https://arxiv.org/abs/2107.05550)
 
 ## 2021-07-07

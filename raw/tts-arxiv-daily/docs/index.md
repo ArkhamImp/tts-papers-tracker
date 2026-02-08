@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.02.06
+## Updated on 2026.02.08
 > Usage instructions: [here](./docs/README.md#usage)
 
 > This page is modified from [here](https://github.com/Vincentqyw/cv-arxiv-daily)
@@ -11,6 +11,9 @@ layout: default
 
 | Publish Date | Title | Authors | PDF | Code |
 |:---------|:-----------------------|:---------|:------|:------|
+|**2026-02-05**|**Zero-Shot TTS With Enhanced Audio Prompts: Bsc Submission For The 2026 Wildspoof Challenge TTS Track**|Jose Giraldo et.al.|[2602.05770](http://arxiv.org/abs/2602.05770)|null|
+|**2026-02-05**|**Wave-Trainer-Fit: Neural Vocoder with Trainable Prior and Fixed-Point Iteration towards High-Quality Speech Generation from SSL features**|Hien Ohnaka et.al.|[2602.05443](http://arxiv.org/abs/2602.05443)|**[link](https://github.com/line/WaveTrainerFit)**|
+|**2026-02-05**|**ARCHI-TTS: A flow-matching-based Text-to-Speech Model with Self-supervised Semantic Aligner and Accelerated Inference**|Chunyat Wu et.al.|[2602.05207](http://arxiv.org/abs/2602.05207)|null|
 |**2026-02-04**|**HoliAntiSpoof: Audio LLM for Holistic Speech Anti-Spoofing**|Xuenan Xu et.al.|[2602.04535](http://arxiv.org/abs/2602.04535)|null|
 |**2026-02-04**|**Universal Robust Speech Adaptation for Cross-Domain Speech Recognition and Enhancement**|Chien-Chun Wang et.al.|[2602.04307](http://arxiv.org/abs/2602.04307)|null|
 |**2026-02-04**|**PFluxTTS: Hybrid Flow-Matching TTS with Robust Cross-Lingual Voice Cloning and Inference-Time Model Fusion**|Vikentii Pankov et.al.|[2602.04160](http://arxiv.org/abs/2602.04160)|null|
@@ -50,7 +53,7 @@ layout: default
 |**2026-01-18**|**A Unified Neural Codec Language Model for Selective Editable Text to Speech Generation**|Hanchen Pei et.al.|[2601.12480](http://arxiv.org/abs/2601.12480)|null|
 |**2026-01-18**|**ParaMETA: Towards Learning Disentangled Paralinguistic Speaking Styles Representations from Speech**|Haowei Lou et.al.|[2601.12289](http://arxiv.org/abs/2601.12289)|null|
 |**2026-01-18**|**Confidence-based Filtering for Speech Dataset Curation with Generative Speech Enhancement Using Discrete Tokens**|Kazuki Yamauchi et.al.|[2601.12254](http://arxiv.org/abs/2601.12254)|null|
-|**2026-01-16**|**F-Actor: Controllable Conversational Behaviour in Full-Duplex Models**|Maike Züfle et.al.|[2601.11329](http://arxiv.org/abs/2601.11329)|null|
+|**2026-01-16**|**F-Actor: Controllable Conversational Behaviour in Full-Duplex Models**|Maike Z眉fle et.al.|[2601.11329](http://arxiv.org/abs/2601.11329)|null|
 |**2026-01-16**|**FlashLabs Chroma 1.0: A Real-Time End-to-End Spoken Dialogue Model with Personalized Voice Cloning**|Tanyu Chen et.al.|[2601.11141](http://arxiv.org/abs/2601.11141)|null|
 |**2026-01-16**|**WenetSpeech-Wu: Datasets, Benchmarks, and Models for a Unified Chinese Wu Dialect Speech Processing Ecosystem**|Chengyou Wang et.al.|[2601.11027](http://arxiv.org/abs/2601.11027)|null|
 |**2026-01-15**|**Unifying Speech Recognition, Synthesis and Conversion with Autoregressive Transformers**|Runyuan Cai et.al.|[2601.10770](http://arxiv.org/abs/2601.10770)|null|
@@ -120,7 +123,7 @@ layout: default
 |**2025-12-04**|**Limit cycles for speech**|Adamantios I. Gafos et.al.|[2512.04642](http://arxiv.org/abs/2512.04642)|null|
 |**2025-12-04**|**RRPO: Robust Reward Policy Optimization for LLM-based Emotional TTS**|Cong Wang et.al.|[2512.04552](http://arxiv.org/abs/2512.04552)|null|
 |**2025-12-04**|**Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup and Frame-Level Attention**|Cong Wang et.al.|[2512.04551](http://arxiv.org/abs/2512.04551)|null|
-|**2025-12-03**|**Head, posture, and full-body gestures in interactive communication**|Ľuboš Hládek et.al.|[2512.03636](http://arxiv.org/abs/2512.03636)|null|
+|**2025-12-03**|**Head, posture, and full-body gestures in interactive communication**|慕ubo拧 Hl谩dek et.al.|[2512.03636](http://arxiv.org/abs/2512.03636)|null|
 |**2025-12-03**|**A Convolutional Framework for Mapping Imagined Auditory MEG into Listened Brain Responses**|Maryam Maghsoudi et.al.|[2512.03458](http://arxiv.org/abs/2512.03458)|null|
 |**2025-12-02**|**Comparing Unsupervised and Supervised Semantic Speech Tokens: A Case Study of Child ASR**|Mohan Shi et.al.|[2512.03301](http://arxiv.org/abs/2512.03301)|null|
 |**2025-12-02**|**How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy**|Natalia Ponomareva et.al.|[2512.03238](http://arxiv.org/abs/2512.03238)|null|
@@ -164,7 +167,7 @@ layout: default
 |**2025-11-25**|**Continual Audio Deepfake Detection via Universal Adversarial Perturbation**|Wangjie Li et.al.|[2511.19974](http://arxiv.org/abs/2511.19974)|null|
 |**2025-11-25**|**Towards Edge General Intelligence: Knowledge Distillation for Mobile Agentic AI**|Yuxuan Wu et.al.|[2511.19947](http://arxiv.org/abs/2511.19947)|null|
 |**2025-11-25**|**It Hears, It Sees too: Multi-Modal LLM for Depression Detection By Integrating Visual Understanding into Audio Language Models**|Xiangyu Zhao et.al.|[2511.19877](http://arxiv.org/abs/2511.19877)|null|
-|**2025-11-24**|**Evaluating Objective Speech Quality Metrics for Neural Audio Codecs**|Luca A. Lanzendörfer et.al.|[2511.19734](http://arxiv.org/abs/2511.19734)|null|
+|**2025-11-24**|**Evaluating Objective Speech Quality Metrics for Neural Audio Codecs**|Luca A. Lanzend枚rfer et.al.|[2511.19734](http://arxiv.org/abs/2511.19734)|null|
 |**2025-11-24**|**A Layered Protocol Architecture for the Internet of Agents**|Charles Fleming et.al.|[2511.19699](http://arxiv.org/abs/2511.19699)|null|
 |**2025-11-24**|**Dynamic Multi-Species Bird Soundscape Generation with Acoustic Patterning and 3D Spatialization**|Ellie L. Zhang et.al.|[2511.19275](http://arxiv.org/abs/2511.19275)|null|
 |**2025-11-25**|**PrismAudio: Decomposed Chain-of-Thoughts and Multi-dimensional Rewards for Video-to-Audio Generation**|Huadai Liu et.al.|[2511.18833](http://arxiv.org/abs/2511.18833)|null|
@@ -238,7 +241,7 @@ layout: default
 |**2025-11-03**|**Toward Objective and Interpretable Prosody Evaluation in Text-to-Speech: A Linguistically Motivated Approach**|Cedric Chan et.al.|[2511.02104](http://arxiv.org/abs/2511.02104)|null|
 |**2025-10-31**|**Reconstructing Unseen Sentences from Speech-related Biosignals for Open-vocabulary Neural Communication**|Deok-Seon Kim et.al.|[2510.27247](http://arxiv.org/abs/2510.27247)|null|
 |**2025-10-27**|**SFMS-ALR: Script-First Multilingual Speech Synthesis with Adaptive Locale Resolution**|Dharma Teja Donepudi et.al.|[2510.25178](http://arxiv.org/abs/2510.25178)|null|
-|**2025-10-28**|**Levée d'ambiguïtés par grammaires locales**|Eric G. C. Laporte et.al.|[2510.24530](http://arxiv.org/abs/2510.24530)|null|
+|**2025-10-28**|**Lev茅e d'ambigu茂t茅s par grammaires locales**|Eric G. C. Laporte et.al.|[2510.24530](http://arxiv.org/abs/2510.24530)|null|
 |**2025-10-28**|**Bayesian Speech synthesizers Can Learn from Multiple Teachers**|Ziyang Zhang et.al.|[2510.24372](http://arxiv.org/abs/2510.24372)|null|
 |**2025-10-28**|**emg2speech: synthesizing speech from electromyography using self-supervised speech models**|Harshavardhana T. Gowda et.al.|[2510.23969](http://arxiv.org/abs/2510.23969)|null|
 |**2025-10-28**|**SoulX-Podcast: Towards Realistic Long-form Podcasts with Dialectal and Paralinguistic Diversity**|Hanke Xie et.al.|[2510.23541](http://arxiv.org/abs/2510.23541)|null|
@@ -324,7 +327,7 @@ layout: default
 |**2025-09-23**|**Explore the Reinforcement Learning for the LLM based ASR and TTS system**|Changfeng Gao et.al.|[2509.18569](http://arxiv.org/abs/2509.18569)|null|
 |**2025-09-23**|**No Verifiable Reward for Prosody: Toward Preference-Guided Prosody Learning in TTS**|Seungyoun Shin et.al.|[2509.18531](http://arxiv.org/abs/2509.18531)|null|
 |**2025-09-22**|**Discrete-time diffusion-like models for speech synthesis**|Xiaozhou Tan et.al.|[2509.18470](http://arxiv.org/abs/2509.18470)|null|
-|**2025-09-22**|**TMD-TTS: A Unified Tibetan Multi-Dialect Text-to-Speech Synthesis for Ü-Tsang, Amdo and Kham Speech Dataset Generation**|Yutong Liu et.al.|[2509.18060](http://arxiv.org/abs/2509.18060)|null|
+|**2025-09-22**|**TMD-TTS: A Unified Tibetan Multi-Dialect Text-to-Speech Synthesis for 脺-Tsang, Amdo and Kham Speech Dataset Generation**|Yutong Liu et.al.|[2509.18060](http://arxiv.org/abs/2509.18060)|null|
 |**2025-09-22**|**Nord-Parl-TTS: Finnish and Swedish TTS Dataset from Parliament Speech**|Zirui Li et.al.|[2509.17988](http://arxiv.org/abs/2509.17988)|null|
 |**2025-09-22**|**Qwen3-Omni Technical Report**|Jin Xu et.al.|[2509.17765](http://arxiv.org/abs/2509.17765)|null|
 |**2025-09-22**|**Audiobook-CC: Controllable Long-context Speech Generation for Multicast Audiobook**|Min Liu et.al.|[2509.17516](http://arxiv.org/abs/2509.17516)|null|
@@ -407,7 +410,7 @@ layout: default
 |**2025-08-21**|**UniCoM: A Universal Code-Switching Speech Generator**|Sangmin Lee et.al.|[2508.15244](http://arxiv.org/abs/2508.15244)|**[link](https://github.com/sanghyang00/unicom)**|
 |**2025-08-20**|**Linear Preference Optimization: Decoupled Gradient Control via Absolute Regularization**|Rui Wang et.al.|[2508.14947](http://arxiv.org/abs/2508.14947)|null|
 |**2025-08-20**|**Long-Context Speech Synthesis with Context-Aware Memory**|Zhipeng Li et.al.|[2508.14713](http://arxiv.org/abs/2508.14713)|null|
-|**2025-08-20**|**Improving Resource-Efficient Speech Enhancement via Neural Differentiable DSP Vocoder Refinement**|Heitor R. Guimarães et.al.|[2508.14709](http://arxiv.org/abs/2508.14709)|null|
+|**2025-08-20**|**Improving Resource-Efficient Speech Enhancement via Neural Differentiable DSP Vocoder Refinement**|Heitor R. Guimar茫es et.al.|[2508.14709](http://arxiv.org/abs/2508.14709)|null|
 |**2025-08-20**|**DiffIER: Optimizing Diffusion Models with Iterative Error Reduction**|Ao Chen et.al.|[2508.13628](http://arxiv.org/abs/2508.13628)|null|
 |**2025-08-19**|**Who Gets the Mic? Investigating Gender Bias in the Speaker Assignment of a Speech-LLM**|Dariia Puhach et.al.|[2508.13603](http://arxiv.org/abs/2508.13603)|**[link](https://github.com/daschablume/speech-gender-bias)**|
 |**2025-08-18**|**A Surveillance Based Interactive Robot**|Kshitij Kavimandan et.al.|[2508.13319](http://arxiv.org/abs/2508.13319)|**[link](https://github.com/Vardhan02/IoT-Based-Web-Controlled-Surveillance-Robot)**|
@@ -437,7 +440,7 @@ layout: default
 |**2025-08-09**|**Maestro-EVC: Controllable Emotional Voice Conversion Guided by References and Explicit Prosody**|Jinsung Yoon et.al.|[2508.06890](http://arxiv.org/abs/2508.06890)|null|
 |**2025-08-09**|**Text to Speech System for Meitei Mayek Script**|Gangular Singh Irengbam et.al.|[2508.06870](http://arxiv.org/abs/2508.06870)|null|
 |**2025-08-08**|**ScamAgents: How AI Agents Can Simulate Human-Level Scam Calls**|Sanket Badhe et.al.|[2508.06457](http://arxiv.org/abs/2508.06457)|null|
-|**2025-08-08**|**Improved Dysarthric Speech to Text Conversion via TTS Personalization**|Péter Mihajlik et.al.|[2508.06391](http://arxiv.org/abs/2508.06391)|null|
+|**2025-08-08**|**Improved Dysarthric Speech to Text Conversion via TTS Personalization**|P茅ter Mihajlik et.al.|[2508.06391](http://arxiv.org/abs/2508.06391)|null|
 |**2025-08-08**|**Large Language Model Data Generation for Enhanced Intent Recognition in German Speech**|Theresa Pekarek Rosin et.al.|[2508.06277](http://arxiv.org/abs/2508.06277)|null|
 |**2025-08-08**|**Llasa+: Free Lunch for Accelerated and Streaming Llama-Based Speech Synthesis**|Wenjie Tian et.al.|[2508.06262](http://arxiv.org/abs/2508.06262)|null|
 |**2025-08-07**|**A Scalable Pipeline for Enabling Non-Verbal Speech Generation and Understanding**|Runchuan Ye et.al.|[2508.05385](http://arxiv.org/abs/2508.05385)|null|
@@ -514,9 +517,9 @@ layout: default
 |**2025-07-05**|**Traceable TTS: Toward Watermark-Free TTS with Strong Traceability**|Yuxiang Zhao et.al.|[2507.03887](http://arxiv.org/abs/2507.03887)|null|
 |**2025-07-14**|**DeepGesture: A conversational gesture synthesis system based on emotions and semantics**|Thanh Hoang-Minh et.al.|[2507.03147](http://arxiv.org/abs/2507.03147)|null|
 |**2025-07-03**|**De-AntiFake: Rethinking the Protective Perturbations Against Voice Cloning Attacks**|Wei Fan et.al.|[2507.02606](http://arxiv.org/abs/2507.02606)|**[link](https://github.com/cyberrrange/De-AntiFake)**|
-|**2025-07-03**|**Open-Source System for Multilingual Translation and Cloned Speech Synthesis**|Mateo Cámara et.al.|[2507.02530](http://arxiv.org/abs/2507.02530)|null|
+|**2025-07-03**|**Open-Source System for Multilingual Translation and Cloned Speech Synthesis**|Mateo C谩mara et.al.|[2507.02530](http://arxiv.org/abs/2507.02530)|null|
 |**2025-07-03**|**JoyTTS: LLM-based Spoken Chatbot With Voice Cloning**|Fangru Zhou et.al.|[2507.02380](http://arxiv.org/abs/2507.02380)|null|
-|**2025-07-02**|**Analyzing and Improving Speaker Similarity Assessment for Speech Synthesis**|Marc-André Carbonneau et.al.|[2507.02176](http://arxiv.org/abs/2507.02176)|null|
+|**2025-07-02**|**Analyzing and Improving Speaker Similarity Assessment for Speech Synthesis**|Marc-Andr茅 Carbonneau et.al.|[2507.02176](http://arxiv.org/abs/2507.02176)|null|
 |**2025-07-04**|**Pronunciation Editing for Finnish Speech using Phonetic Posteriorgrams**|Zirui Li et.al.|[2507.02115](http://arxiv.org/abs/2507.02115)|**[link](https://github.com/aalto-speech/PPG2Speech)**|
 |**2025-07-02**|**A Dataset for Automatic Assessment of TTS Quality in Spanish**|Alejandro Sosa Welford et.al.|[2507.01805](http://arxiv.org/abs/2507.01805)|null|
 |**2025-07-02**|**Voice Conversion for Likability Control via Automated Rating of Speech Synthesis Corpora**|Hitoshi Suda et.al.|[2507.01356](http://arxiv.org/abs/2507.01356)|null|
@@ -528,14 +531,14 @@ layout: default
 |**2025-07-01**|**StreamFlow: Streaming Flow Matching with Block-wise Guided Attention Mask for Speech Token Decoding**|Dake Guo et.al.|[2506.23986](http://arxiv.org/abs/2506.23986)|null|
 |**2025-06-30**|**Efficient Interleaved Speech Modeling through Knowledge Distillation**|Mohammadmahdi Nouriborji et.al.|[2506.23670](http://arxiv.org/abs/2506.23670)|null|
 |**2025-06-30**|**JAM-Flow: Joint Audio-Motion Synthesis with Flow Matching**|Mingi Kwon et.al.|[2506.23552](http://arxiv.org/abs/2506.23552)|null|
-|**2025-06-29**|**You Sound a Little Tense: L2 Tailored Clear TTS Using Durational Vowel Properties**|Paige Tuttösí et.al.|[2506.23367](http://arxiv.org/abs/2506.23367)|null|
+|**2025-06-29**|**You Sound a Little Tense: L2 Tailored Clear TTS Using Durational Vowel Properties**|Paige Tutt枚s铆 et.al.|[2506.23367](http://arxiv.org/abs/2506.23367)|null|
 |**2025-06-27**|**DiffSoundStream: Efficient Speech Tokenization via Diffusion Decoding**|Yang Yang et.al.|[2506.22362](http://arxiv.org/abs/2506.22362)|null|
 |**2025-06-27**|**Evaluating Pointing Gestures for Target Selection in Human-Robot Collaboration**|Noora Sassali et.al.|[2506.22116](http://arxiv.org/abs/2506.22116)|null|
 |**2025-06-27**|**Robust and Efficient Autoregressive Speech Synthesis with Dynamic Chunk-wise Prediction Policy**|Bohan Li et.al.|[2506.22023](http://arxiv.org/abs/2506.22023)|null|
 |**2025-06-23**|**IndexTTS2: A Breakthrough in Emotionally Expressive and Duration-Controlled Auto-Regressive Zero-Shot Text-to-Speech**|Siyi Zhou et.al.|[2506.21619](http://arxiv.org/abs/2506.21619)|**[link](https://github.com/sruckh/IndexTTS2-Runpod)**|
 |**2025-06-26**|**SmoothSinger: A Conditional Diffusion Model for Singing Voice Synthesis with Multi-Resolution Architecture**|Kehan Sui et.al.|[2506.21478](http://arxiv.org/abs/2506.21478)|null|
 |**2025-06-26**|**A Multi-Stage Framework for Multimodal Controllable Speech Synthesis**|Rui Niu et.al.|[2506.20945](http://arxiv.org/abs/2506.20945)|null|
-|**2025-06-25**|**An Exploration of ECAPA-TDNN and x-vector Speaker Representations in Zero-shot Multi-speaker TTS**|Marie Kunešová et.al.|[2506.20190](http://arxiv.org/abs/2506.20190)|null|
+|**2025-06-25**|**An Exploration of ECAPA-TDNN and x-vector Speaker Representations in Zero-shot Multi-speaker TTS**|Marie Kune拧ov谩 et.al.|[2506.20190](http://arxiv.org/abs/2506.20190)|null|
 |**2025-06-24**|**TTSDS2: Resources and Benchmark for Evaluating Human-Quality Text to Speech Systems**|Christoph Minixhofer et.al.|[2506.19441](http://arxiv.org/abs/2506.19441)|null|
 |**2025-06-23**|**Selecting N-lowest scores for training MOS prediction models**|Yuto Kondo et.al.|[2506.18326](http://arxiv.org/abs/2506.18326)|null|
 |**2025-06-23**|**Rethinking Mean Opinion Scores in Speech Quality Assessment: Aggregation through Quantized Distribution Fitting**|Yuto Kondo et.al.|[2506.18307](http://arxiv.org/abs/2506.18307)|null|
@@ -548,11 +551,11 @@ layout: default
 |**2025-06-19**|**InstructTTSEval: Benchmarking Complex Natural-Language Instruction Following in Text-to-Speech Systems**|Kexin Huang et.al.|[2506.16381](http://arxiv.org/abs/2506.16381)|**[link](https://github.com/kexinhuang19/instructttseval)**|
 |**2025-06-19**|**Optimizing Multilingual Text-To-Speech with Accents & Emotions**|Pranav Pawar et.al.|[2506.16310](http://arxiv.org/abs/2506.16310)|null|
 |**2025-06-19**|**Improved Intelligibility of Dysarthric Speech using Conditional Flow Matching**|Shoutrik Das et.al.|[2506.16127](http://arxiv.org/abs/2506.16127)|null|
-|**2025-06-19**|**VS-Singer: Vision-Guided Stereo Singing Voice Synthesis with Consistency Schrödinger Bridge**|Zijing Zhao et.al.|[2506.16020](http://arxiv.org/abs/2506.16020)|null|
+|**2025-06-19**|**VS-Singer: Vision-Guided Stereo Singing Voice Synthesis with Consistency Schr枚dinger Bridge**|Zijing Zhao et.al.|[2506.16020](http://arxiv.org/abs/2506.16020)|null|
 |**2025-06-18**|**TTSOps: A Closed-Loop Corpus Optimization Framework for Training Multi-Speaker TTS Models from Dark Data**|Kentaro Seki et.al.|[2506.15614](http://arxiv.org/abs/2506.15614)|null|
 |**2025-06-18**|**PredGen: Accelerated Inference of Large Language Models through Input-Time Speculation for Real-Time Speech Interaction**|Shufan Li et.al.|[2506.15556](http://arxiv.org/abs/2506.15556)|null|
 |**2025-06-18**|**Factorized RVQ-GAN For Disentangled Speech Tokenization**|Sameer Khurana et.al.|[2506.15456](http://arxiv.org/abs/2506.15456)|null|
-|**2025-06-18**|**EmojiVoice: Towards long-term controllable expressivity in robot speech**|Paige Tuttösí et.al.|[2506.15085](http://arxiv.org/abs/2506.15085)|null|
+|**2025-06-18**|**EmojiVoice: Towards long-term controllable expressivity in robot speech**|Paige Tutt枚s铆 et.al.|[2506.15085](http://arxiv.org/abs/2506.15085)|null|
 |**2025-06-18**|**An accurate and revised version of optical character recognition-based speech synthesis using LabVIEW**|Prateek Mehta et.al.|[2506.15029](http://arxiv.org/abs/2506.15029)|null|
 |**2025-06-25**|**SLEEPING-DISCO 9M: A large-scale pre-training dataset for generative music modeling**|Tawsif Ahmed et.al.|[2506.14293](http://arxiv.org/abs/2506.14293)|null|
 |**2025-06-17**|**Investigation of Zero-shot Text-to-Speech Models for Enhancing Short-Utterance Speaker Verification**|Yiyang Zhao et.al.|[2506.14226](http://arxiv.org/abs/2506.14226)|null|
@@ -651,7 +654,7 @@ layout: default
 |**2025-05-20**|**TCSinger 2: Customizable Multilingual Zero-shot Singing Voice Synthesis**|Yu Zhang et.al.|[2505.14910](http://arxiv.org/abs/2505.14910)|**[link](https://github.com/aaronz345/tcsinger2)**|
 |**2025-05-20**|**Vox-Profile: A Speech Foundation Model Benchmark for Characterizing Diverse Speaker and Speech Traits**|Tiantian Feng et.al.|[2505.14648](http://arxiv.org/abs/2505.14648)|**[link](https://github.com/tiantiaf0627/vox-profile-release)**|
 |**2025-05-20**|**Pairwise Evaluation of Accent Similarity in Speech Synthesis**|Jinzuomu Zhong et.al.|[2505.14410](http://arxiv.org/abs/2505.14410)|null|
-|**2025-05-20**|**FMSD-TTS: Few-shot Multi-Speaker Multi-Dialect Text-to-Speech Synthesis for Ü-Tsang, Amdo and Kham Speech Dataset Generation**|Yutong Liu et.al.|[2505.14351](http://arxiv.org/abs/2505.14351)|null|
+|**2025-05-20**|**FMSD-TTS: Few-shot Multi-Speaker Multi-Dialect Text-to-Speech Synthesis for 脺-Tsang, Amdo and Kham Speech Dataset Generation**|Yutong Liu et.al.|[2505.14351](http://arxiv.org/abs/2505.14351)|null|
 |**2025-05-21**|**AudioJailbreak: Jailbreak Attacks against End-to-End Large Audio-Language Models**|Guangke Chen et.al.|[2505.14103](http://arxiv.org/abs/2505.14103)|null|
 |**2025-05-20**|**SeamlessEdit: Background Noise Aware Zero-Shot Speech Editing with in-Context Enhancement**|Kuan-Yu Chen et.al.|[2505.14066](http://arxiv.org/abs/2505.14066)|null|
 |**2025-05-23**|**U-SAM: An audio language Model for Unified Speech, Audio, and Music Understanding**|Ziqian Wang et.al.|[2505.13880](http://arxiv.org/abs/2505.13880)|**[link](https://github.com/honee-w/u-sam)**|
@@ -670,7 +673,7 @@ layout: default
 |**2025-05-15**|**UDDETTS: Unifying Discrete and Dimensional Emotions for Controllable Emotional Text-to-Speech**|Jiaxuan Liu et.al.|[2505.10599](http://arxiv.org/abs/2505.10599)|null|
 |**2025-05-14**|**SingNet: Towards a Large-Scale, Diverse, and In-the-Wild Singing Voice Dataset**|Yicheng Gu et.al.|[2505.09325](http://arxiv.org/abs/2505.09325)|null|
 |**2025-05-14**|**DPN-GAN: Inducing Periodic Activations in Generative Adversarial Networks for High-Fidelity Audio Synthesis**|Zeeshan Ahmad et.al.|[2505.09091](http://arxiv.org/abs/2505.09091)|null|
-|**2025-05-13**|**Investigating self-supervised features for expressive, multilingual voice conversion**|Álvaro Martín-Cortinas et.al.|[2505.08278](http://arxiv.org/abs/2505.08278)|null|
+|**2025-05-13**|**Investigating self-supervised features for expressive, multilingual voice conversion**|脕lvaro Mart铆n-Cortinas et.al.|[2505.08278](http://arxiv.org/abs/2505.08278)|null|
 |**2025-05-12**|**MiniMax-Speech: Intrinsic Zero-Shot Text-to-Speech with a Learnable Speaker Encoder**|Bowen Zhang et.al.|[2505.07916](http://arxiv.org/abs/2505.07916)|null|
 |**2025-05-12**|**Lightweight End-to-end Text-to-speech Synthesis for low resource on-device applications**|Biel Tura Vecino et.al.|[2505.07701](http://arxiv.org/abs/2505.07701)|null|
 |**2025-05-10**|**VTutor: An Animated Pedagogical Agent SDK that Provide Real Time Multi-Model Feedback**|Eason Chen et.al.|[2505.06676](http://arxiv.org/abs/2505.06676)|null|
@@ -738,7 +741,7 @@ layout: default
 |**2025-03-26**|**InnerSelf: Designing Self-Deepfaked Voice for Emotional Well-being**|Guang Dai et.al.|[2503.14257](http://arxiv.org/abs/2503.14257)|null|
 |**2025-03-15**|**Universal Speech Token Learning via Low-Bitrate Neural Codec and Pretrained Representations**|Xue Jiang et.al.|[2503.12115](http://arxiv.org/abs/2503.12115)|null|
 |**2025-03-14**|**MAVFlow: Preserving Paralinguistic Elements with Conditional Flow Matching for Zero-Shot AV2AV Multilingual Translation**|Sungwoo Cho et.al.|[2503.11026](http://arxiv.org/abs/2503.11026)|null|
-|**2025-03-14**|**Proceedings of the ISCA/ITG Workshop on Diversity in Large Speech and Language Models**|Sebastian Möller et.al.|[2503.10298](http://arxiv.org/abs/2503.10298)|null|
+|**2025-03-14**|**Proceedings of the ISCA/ITG Workshop on Diversity in Large Speech and Language Models**|Sebastian M枚ller et.al.|[2503.10298](http://arxiv.org/abs/2503.10298)|null|
 |**2025-03-11**|**An Exhaustive Evaluation of TTS- and VC-based Data Augmentation for ASR**|Sewade Ogun et.al.|[2503.08954](http://arxiv.org/abs/2503.08954)|null|
 |**2025-03-09**|**ProSE: Diffusion Priors for Speech Enhancement**|Sonal Kumar et.al.|[2503.06375](http://arxiv.org/abs/2503.06375)|null|
 |**2025-03-07**|**DiVISe: Direct Visual-Input Speech Synthesis Preserving Speaker Characteristics And Intelligibility**|Yifan Liu et.al.|[2503.05223](http://arxiv.org/abs/2503.05223)|**[link](https://github.com/pussycat0700/divise)**|
@@ -749,7 +752,7 @@ layout: default
 |**2025-03-04**|**InSerter: Speech Instruction Following with Unsupervised Interleaved Pre-training**|Dingdong Wang et.al.|[2503.02769](http://arxiv.org/abs/2503.02769)|null|
 |**2025-03-03**|**Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens**|Xinsheng Wang et.al.|[2503.01710](http://arxiv.org/abs/2503.01710)|**[link](https://github.com/sparkaudio/spark-tts)**|
 |**2025-03-03**|**Voice Cloning for Dysarthric Speech Synthesis: Addressing Data Scarcity in Speech-Language Pathology**|Birger Moell et.al.|[2503.01266](http://arxiv.org/abs/2503.01266)|null|
-|**2025-03-02**|**Language-agnostic, automated assessment of listeners' speech recall using large language models**|Björn Herrmann et.al.|[2503.01045](http://arxiv.org/abs/2503.01045)|null|
+|**2025-03-02**|**Language-agnostic, automated assessment of listeners' speech recall using large language models**|Bj枚rn Herrmann et.al.|[2503.01045](http://arxiv.org/abs/2503.01045)|null|
 |**2025-03-02**|**UniWav: Towards Unified Pre-training for Speech Representation Learning and Generation**|Alexander H. Liu et.al.|[2503.00733](http://arxiv.org/abs/2503.00733)|null|
 |**2025-03-01**|**PodAgent: A Comprehensive Framework for Podcast Generation**|Yujia Xiao et.al.|[2503.00455](http://arxiv.org/abs/2503.00455)|**[link](https://github.com/yujxx/podagent)**|
 |**2025-03-12**|**Telephone Surveys Meet Conversational AI: Evaluating a LLM-Based Telephone Survey System at Scale**|Max M. Lang et.al.|[2502.20140](http://arxiv.org/abs/2502.20140)|null|
@@ -760,7 +763,7 @@ layout: default
 |**2025-02-24**|**Baichuan-Audio: A Unified Framework for End-to-End Speech Interaction**|Tianpeng Li et.al.|[2502.17239](http://arxiv.org/abs/2502.17239)|**[link](https://github.com/baichuan-inc/baichuan-audio)**|
 |**2025-02-24**|**Balancing Speech Understanding and Generation Using Continual Pre-training for Codec-based Speech LLM**|Jiatong Shi et.al.|[2502.16897](http://arxiv.org/abs/2502.16897)|null|
 |**2025-02-18**|**AV-Flow: Transforming Text to Audio-Visual Human-like Interactions**|Aggelina Chatziagapi et.al.|[2502.13133](http://arxiv.org/abs/2502.13133)|null|
-|**2025-02-18**|**High-Fidelity Music Vocoder using Neural Audio Codecs**|Luca A. Lanzendörfer et.al.|[2502.12759](http://arxiv.org/abs/2502.12759)|**[link](https://github.com/ETH-DISCO/discoder)**|
+|**2025-02-18**|**High-Fidelity Music Vocoder using Neural Audio Codecs**|Luca A. Lanzend枚rfer et.al.|[2502.12759](http://arxiv.org/abs/2502.12759)|**[link](https://github.com/ETH-DISCO/discoder)**|
 |**2025-02-18**|**TechSinger: Technique Controllable Multilingual Singing Voice Synthesis via Flow Matching**|Wenxiang Guo et.al.|[2502.12572](http://arxiv.org/abs/2502.12572)|**[link](https://github.com/gwx314/techsinger)**|
 |**2025-02-18**|**A Survey on Bridging EEG Signals and Generative AI: From Image and Text to Beyond**|Shreya Shukla et.al.|[2502.12048](http://arxiv.org/abs/2502.12048)|null|
 |**2025-02-17**|**NaturalL2S: End-to-End High-quality Multispeaker Lip-to-Speech Synthesis with Differential Digital Signal Processing**|Yifan Liang et.al.|[2502.12002](http://arxiv.org/abs/2502.12002)|null|
@@ -769,7 +772,7 @@ layout: default
 |**2025-02-14**|**VocalCrypt: Novel Active Defense Against Deepfake Voice Based on Masking Effect**|Qingyuan Fei et.al.|[2502.10329](http://arxiv.org/abs/2502.10329)|null|
 |**2025-02-13**|**TokenSynth: A Token-based Neural Synthesizer for Instrument Cloning and Text-to-Instrument**|Kyungsu Kim et.al.|[2502.08939](http://arxiv.org/abs/2502.08939)|**[link](https://github.com/kyungsukim42/tokensynth)**|
 |**2025-03-02**|**ASVspoof 5: Design, Collection and Validation of Resources for Spoofing, Deepfake, and Adversarial Attack Detection Using Crowdsourced Speech**|Xin Wang et.al.|[2502.08857](http://arxiv.org/abs/2502.08857)|null|
-|**2025-02-11**|**LoRP-TTS: Low-Rank Personalized Text-To-Speech**|Łukasz Bondaruk et.al.|[2502.07562](http://arxiv.org/abs/2502.07562)|null|
+|**2025-02-11**|**LoRP-TTS: Low-Rank Personalized Text-To-Speech**|艁ukasz Bondaruk et.al.|[2502.07562](http://arxiv.org/abs/2502.07562)|null|
 |**2025-02-11**|**Advanced Zero-Shot Text-to-Speech for Background Removal and Preservation with Controllable Masked Speech Prediction**|Leying Zhang et.al.|[2502.07345](http://arxiv.org/abs/2502.07345)|null|
 |**2025-02-11**|**Vevo: Controllable Zero-Shot Voice Imitation with Self-Supervised Disentanglement**|Xueyao Zhang et.al.|[2502.07243](http://arxiv.org/abs/2502.07243)|null|
 |**2025-02-10**|**Synthetic Audio Helps for Cognitive State Tasks**|Adil Soubki et.al.|[2502.06922](http://arxiv.org/abs/2502.06922)|**[link](https://github.com/adil-soubki/sad-training)**|
@@ -806,7 +809,7 @@ layout: default
 |**2025-01-15**|**Adaptive Data Augmentation with NaturalSpeech3 for Far-field Speaker Verification**|Li Zhang et.al.|[2501.08691](http://arxiv.org/abs/2501.08691)|null|
 |**2025-01-15**|**Towards Lightweight and Stable Zero-shot TTS with Self-distilled Representation Disentanglement**|Qianniu Chen et.al.|[2501.08566](http://arxiv.org/abs/2501.08566)|null|
 |**2025-01-14**|**CodecFake-Omni: A Large-Scale Codec-based Deepfake Speech Dataset**|Jiawei Du et.al.|[2501.08238](http://arxiv.org/abs/2501.08238)|null|
-|**2025-01-13**|**Exploring the encoding of linguistic representations in the Fully-Connected Layer of generative CNNs for Speech**|Bruno Ferenc Šegedin et.al.|[2501.07726](http://arxiv.org/abs/2501.07726)|null|
+|**2025-01-13**|**Exploring the encoding of linguistic representations in the Fully-Connected Layer of generative CNNs for Speech**|Bruno Ferenc 艩egedin et.al.|[2501.07726](http://arxiv.org/abs/2501.07726)|null|
 |**2025-01-19**|**MathReader : Text-to-Speech for Mathematical Documents**|Sieun Hyeon et.al.|[2501.07088](http://arxiv.org/abs/2501.07088)|**[link](https://github.com/hyeonsieun/mathreader)**|
 |**2025-01-11**|**The 1st SpeechWellness Challenge: Detecting Suicidal Risk Among Adolescents**|Wen Wu et.al.|[2501.06474](http://arxiv.org/abs/2501.06474)|null|
 |**2025-01-11**|**Retrieval-Augmented Dialogue Knowledge Aggregation for Expressive Conversational Speech Synthesis**|Rui Liu et.al.|[2501.06467](http://arxiv.org/abs/2501.06467)|**[link](https://github.com/coder-jzq/radka-css)**|
@@ -871,7 +874,7 @@ layout: default
 |**2024-11-04**|**EmoSphere++: Emotion-Controllable Zero-Shot Text-to-Speech via Emotion-Adaptive Spherical Vector**|Deok-Hyeon Cho et.al.|[2411.02625](http://arxiv.org/abs/2411.02625)|**[link](https://github.com/Choddeok/EmoSpherepp)**|
 |**2024-11-09**|**Fish-Speech: Leveraging Large Language Models for Advanced Multilingual Text-to-Speech Synthesis**|Shijia Liao et.al.|[2411.01156](http://arxiv.org/abs/2411.01156)|**[link](https://github.com/fishaudio/fish-speech)**|
 |**2024-10-31**|**Speech is More Than Words: Do Speech-to-Text Translation Systems Leverage Prosody?**|Ioannis Tsiamas et.al.|[2410.24019](http://arxiv.org/abs/2410.24019)|null|
-|**2024-10-30**|**Lina-Speech: Gated Linear Attention is a Fast and Parameter-Efficient Learner for text-to-speech synthesis**|Théodor Lemerle et.al.|[2410.23320](http://arxiv.org/abs/2410.23320)|**[link](https://github.com/theodorblackbird/lina-speech)**|
+|**2024-10-30**|**Lina-Speech: Gated Linear Attention is a Fast and Parameter-Efficient Learner for text-to-speech synthesis**|Th茅odor Lemerle et.al.|[2410.23320](http://arxiv.org/abs/2410.23320)|**[link](https://github.com/theodorblackbird/lina-speech)**|
 |**2024-10-29**|**Very Attentive Tacotron: Robust and Unbounded Length Generalization in Autoregressive Transformer-Based Text-to-Speech**|Eric Battenberg et.al.|[2410.22179](http://arxiv.org/abs/2410.22179)|**[link](https://github.com/google/sequence-layers/blob/main/examples/very_attentive_tacotron.py)**|
 |**2024-10-29**|**Fast and High-Quality Auto-Regressive Speech Synthesis via Speculative Decoding**|Bohan Li et.al.|[2410.21951](http://arxiv.org/abs/2410.21951)|null|
 |**2024-10-29**|**RDSinger: Reference-based Diffusion Network for Singing Voice Synthesis**|Kehan Sui et.al.|[2410.21641](http://arxiv.org/abs/2410.21641)|null|
@@ -888,7 +891,7 @@ layout: default
 |**2024-10-21**|**Continuous Speech Synthesis using per-token Latent Diffusion**|Arnon Turetzky et.al.|[2410.16048](http://arxiv.org/abs/2410.16048)|null|
 |**2024-10-18**|**A Unified Framework for Collecting Text-to-Speech Synthesis Datasets for 22 Indian Languages**|Sujitha Sathiyamoorthy et.al.|[2410.14197](http://arxiv.org/abs/2410.14197)|null|
 |**2024-10-18**|**Multi-Source Spatial Knowledge Understanding for Immersive Visual Text-to-Speech**|Shuwei He et.al.|[2410.14101](http://arxiv.org/abs/2410.14101)|**[link](https://github.com/ms2ku-vtts/ms2ku-vtts)**|
-|**2024-10-17**|**Enhancing Crowdsourced Audio for Text-to-Speech Models**|José Giraldo et.al.|[2410.13357](http://arxiv.org/abs/2410.13357)|null|
+|**2024-10-17**|**Enhancing Crowdsourced Audio for Text-to-Speech Models**|Jos茅 Giraldo et.al.|[2410.13357](http://arxiv.org/abs/2410.13357)|null|
 |**2024-10-17**|**DART: Disentanglement of Accent and Speaker Representation in Multispeaker Text-to-Speech**|Jan Melechovsky et.al.|[2410.13342](http://arxiv.org/abs/2410.13342)|null|
 |**2024-10-17**|**DurIAN-E 2: Duration Informed Attention Network with Adaptive Variational Autoencoder and Adversarial Learning for Expressive Text-to-Speech Synthesis**|Yu Gu et.al.|[2410.13288](http://arxiv.org/abs/2410.13288)|null|
 |**2024-10-17**|**Failing Forward: Improving Generative Error Correction for ASR with Synthetic Data and Retrieval Augmentation**|Sreyan Ghosh et.al.|[2410.13198](http://arxiv.org/abs/2410.13198)|null|
@@ -898,7 +901,7 @@ layout: default
 |**2024-10-12**|**Emphasis Rendering for Conversational Text-to-Speech with Multi-modal Multi-scale Context Modeling**|Rui Liu et.al.|[2410.09524](http://arxiv.org/abs/2410.09524)|null|
 |**2024-10-10**|**Unsupervised Data Validation Methods for Efficient Model Training**|Yurii Paniv et.al.|[2410.07880](http://arxiv.org/abs/2410.07880)|**[link](https://github.com/djdprogramming/adfa2)**|
 |**2024-10-15**|**F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching**|Yushen Chen et.al.|[2410.06885](http://arxiv.org/abs/2410.06885)|**[link](https://github.com/SWivid/F5-TTS)**|
-|**2024-10-09**|**Efficient training strategies for natural sounding speech synthesis and speaker adaptation based on FastPitch**|Teodora Răgman et.al.|[2410.06787](http://arxiv.org/abs/2410.06787)|null|
+|**2024-10-09**|**Efficient training strategies for natural sounding speech synthesis and speaker adaptation based on FastPitch**|Teodora R膬gman et.al.|[2410.06787](http://arxiv.org/abs/2410.06787)|null|
 |**2024-10-09**|**Bahasa Harmony: A Comprehensive Dataset for Bahasa Text-to-Speech Synthesis with Discrete Codec Modeling of EnGen-TTS**|Onkar Kishor Susladkar et.al.|[2410.06608](http://arxiv.org/abs/2410.06608)|null|
 |**2024-10-09**|**Can DeepFake Speech be Reliably Detected?**|Hongbin Liu et.al.|[2410.06572](http://arxiv.org/abs/2410.06572)|null|
 |**2024-10-07**|**SegINR: Segment-wise Implicit Neural Representation for Sequence Alignment in Neural Text-to-Speech**|Minchan Kim et.al.|[2410.04690](http://arxiv.org/abs/2410.04690)|null|
@@ -928,8 +931,8 @@ layout: default
 |**2024-09-23**|**A Comprehensive Survey with Critical Analysis for Deepfake Speech Detection**|Lam Pham et.al.|[2409.15180](http://arxiv.org/abs/2409.15180)|null|
 |**2024-09-23**|**LlamaPartialSpoof: An LLM-Driven Fake Speech Dataset Simulating Disinformation Generation**|Hieu-Thi Luong et.al.|[2409.14743](http://arxiv.org/abs/2409.14743)|**[link](https://github.com/hieuthi/llamapartialspoof)**|
 |**2024-09-20**|**Zero-shot Cross-lingual Voice Transfer for TTS**|Fadi Biadsy et.al.|[2409.13910](http://arxiv.org/abs/2409.13910)|null|
-|**2024-09-20**|**On the Feasibility of Fully AI-automated Vishing Attacks**|João Figueiredo et.al.|[2409.13793](http://arxiv.org/abs/2409.13793)|null|
-|**2024-09-19**|**Enhancing Synthetic Training Data for Speech Commands: From ASR-Based Filtering to Domain Adaptation in SSL Latent Space**|Sebastião Quintas et.al.|[2409.12745](http://arxiv.org/abs/2409.12745)|null|
+|**2024-09-20**|**On the Feasibility of Fully AI-automated Vishing Attacks**|Jo茫o Figueiredo et.al.|[2409.13793](http://arxiv.org/abs/2409.13793)|null|
+|**2024-09-19**|**Enhancing Synthetic Training Data for Speech Commands: From ASR-Based Filtering to Domain Adaptation in SSL Latent Space**|Sebasti茫o Quintas et.al.|[2409.12745](http://arxiv.org/abs/2409.12745)|null|
 |**2024-09-19**|**Preference Alignment Improves Language Model-Based TTS**|Jinchuan Tian et.al.|[2409.12403](http://arxiv.org/abs/2409.12403)|null|
 |**2024-09-18**|**Low Frame-rate Speech Codec: a Codec Designed for Fast High-quality Speech LLM Training and Inference**|Edresson Casanova et.al.|[2409.12117](http://arxiv.org/abs/2409.12117)|null|
 |**2024-09-18**|**Exploring an Inter-Pausal Unit (IPU) based Approach for Indic End-to-End TTS Systems**|Anusha Prakash et.al.|[2409.11915](http://arxiv.org/abs/2409.11915)|null|
@@ -1000,7 +1003,7 @@ layout: default
 |**2024-07-31**|**On the Problem of Text-To-Speech Model Selection for Synthetic Data Generation in Automatic Speech Recognition**|Nick Rossenbach et.al.|[2407.21476](http://arxiv.org/abs/2407.21476)|null|
 |**2024-07-29**|**Speech Bandwidth Expansion Via High Fidelity Generative Adversarial Networks**|Mahmoud Salhab et.al.|[2407.18571](http://arxiv.org/abs/2407.18571)|null|
 |**2024-07-25**|**On the Effect of Purely Synthetic Training Data for Different Automatic Speech Recognition Architectures**|Nick Rossenbach et.al.|[2407.17997](http://arxiv.org/abs/2407.17997)|null|
-|**2024-07-24**|**Zero-Shot vs. Few-Shot Multi-Speaker TTS Using Pre-trained Czech SpeechT5 Model**|Jan Lehečka et.al.|[2407.17167](http://arxiv.org/abs/2407.17167)|null|
+|**2024-07-24**|**Zero-Shot vs. Few-Shot Multi-Speaker TTS Using Pre-trained Czech SpeechT5 Model**|Jan Lehe膷ka et.al.|[2407.17167](http://arxiv.org/abs/2407.17167)|null|
 |**2024-07-23**|**Synth4Kws: Synthesized Speech for User Defined Keyword Spotting in Low Resource Environments**|Pai Zhu et.al.|[2407.16840](http://arxiv.org/abs/2407.16840)|null|
 |**2024-07-19**|**Braille-to-Speech Generator: Audio Generation Based on Joint Fine-Tuning of CLIP and Fastspeech2**|Chun Xu et.al.|[2407.14212](http://arxiv.org/abs/2407.14212)|null|
 |**2024-07-18**|**Spontaneous Style Text-to-Speech Synthesis with Controllable Spontaneous Behaviors Based on Language Models**|Weiqin Li et.al.|[2407.13509](http://arxiv.org/abs/2407.13509)|null|
@@ -1013,7 +1016,7 @@ layout: default
 |**2024-07-07**|**ASRRL-TTS: Agile Speaker Representation Reinforcement Learning for Text-to-Speech Speaker Adaptation**|Ruibo Fu et.al.|[2407.05421](http://arxiv.org/abs/2407.05421)|null|
 |**2024-07-09**|**CosyVoice: A Scalable Multilingual Zero-shot Text-to-speech Synthesizer based on Supervised Semantic Tokens**|Zhihao Du et.al.|[2407.05407](http://arxiv.org/abs/2407.05407)|null|
 |**2024-07-04**|**Improving Accented Speech Recognition using Data Augmentation based on Unsupervised Text-to-Speech Synthesis**|Cong-Thanh Do et.al.|[2407.04047](http://arxiv.org/abs/2407.04047)|null|
-|**2024-07-04**|**Optimizing a-DCF for Spoofing-Robust Speaker Verification**|Oğuzhan Kurnaz et.al.|[2407.04034](http://arxiv.org/abs/2407.04034)|null|
+|**2024-07-04**|**Optimizing a-DCF for Spoofing-Robust Speaker Verification**|O臒uzhan Kurnaz et.al.|[2407.04034](http://arxiv.org/abs/2407.04034)|null|
 |**2024-07-04**|**On the Effectiveness of Acoustic BPE in Decoder-Only TTS**|Bohan Li et.al.|[2407.03892](http://arxiv.org/abs/2407.03892)|null|
 |**2024-07-14**|**CATT: Character-based Arabic Tashkeel Transformer**|Faris Alasmary et.al.|[2407.03236](http://arxiv.org/abs/2407.03236)|**[link](https://github.com/abjadai/catt)**|
 |**2024-07-02**|**Robust Zero-Shot Text-to-Speech Synthesis with Reverse Inference Optimization**|Yuchen Hu et.al.|[2407.02243](http://arxiv.org/abs/2407.02243)|null|
@@ -1070,12 +1073,12 @@ layout: default
 |**2024-06-07**|**XTTS: a Massively Multilingual Zero-Shot Text-to-Speech Model**|Edresson Casanova et.al.|[2406.04904](http://arxiv.org/abs/2406.04904)|**[link](https://github.com/Edresson/ZS-TTS-Evaluation)**|
 |**2024-06-07**|**TraceableSpeech: Towards Proactively Traceable Text-to-Speech with Watermarking**|Junzuo Zhou et.al.|[2406.04840](http://arxiv.org/abs/2406.04840)|**[link](https://github.com/zjzser/traceablespeech)**|
 |**2024-06-07**|**Boosting Diffusion Model for Spectrogram Up-sampling in Text-to-speech: An Empirical Study**|Chong Zhang et.al.|[2406.04633](http://arxiv.org/abs/2406.04633)|null|
-|**2024-06-06**|**Small-E: Small Language Model with Linear Attention for Efficient Speech Synthesis**|Théodor Lemerle et.al.|[2406.04467](http://arxiv.org/abs/2406.04467)|**[link](https://github.com/theodorblackbird/lina-speech)**|
+|**2024-06-06**|**Small-E: Small Language Model with Linear Attention for Efficient Speech Synthesis**|Th茅odor Lemerle et.al.|[2406.04467](http://arxiv.org/abs/2406.04467)|**[link](https://github.com/theodorblackbird/lina-speech)**|
 |**2024-06-06**|**Total-Duration-Aware Duration Modeling for Text-to-Speech Systems**|Sefik Emre Eskimez et.al.|[2406.04281](http://arxiv.org/abs/2406.04281)|null|
 |**2024-06-06**|**Retrieval Augmented Generation in Prompt-based Text-to-Speech Synthesis with Context-Aware Contrastive Language-Audio Pretraining**|Jinlong Xue et.al.|[2406.03714](http://arxiv.org/abs/2406.03714)|null|
 |**2024-06-06**|**Improving Audio Codec-based Zero-Shot Text-to-Speech Synthesis with Multi-Modal Context and Large Language Model**|Jinlong Xue et.al.|[2406.03706](http://arxiv.org/abs/2406.03706)|null|
 |**2024-06-05**|**Style Mixture of Experts for Expressive Text-To-Speech Synthesis**|Ahad Jawaid et.al.|[2406.03637](http://arxiv.org/abs/2406.03637)|null|
-|**2024-06-07**|**Harder or Different? Understanding Generalization of Audio Deepfake Detection**|Nicolas M. Müller et.al.|[2406.03512](http://arxiv.org/abs/2406.03512)|null|
+|**2024-06-07**|**Harder or Different? Understanding Generalization of Audio Deepfake Detection**|Nicolas M. M眉ller et.al.|[2406.03512](http://arxiv.org/abs/2406.03512)|null|
 |**2024-06-05**|**LiveSpeech: Low-Latency Zero-shot Text-to-Speech via Autoregressive Modeling of Audio Discrete Codes**|Trung Dang et.al.|[2406.02897](http://arxiv.org/abs/2406.02897)|null|
 |**2024-06-04**|**Seed-TTS: A Family of High-Quality Versatile Speech Generation Models**|Philip Anastassiou et.al.|[2406.02430](http://arxiv.org/abs/2406.02430)|**[link](https://github.com/BytedanceSpeech/seed-tts-eval)**|
 |**2024-06-05**|**SimpleSpeech: Towards Simple and Efficient Text-to-Speech with Scalar Latent Transformer Diffusion Models**|Dongchao Yang et.al.|[2406.02328](http://arxiv.org/abs/2406.02328)|null|
@@ -1141,11 +1144,11 @@ layout: default
 |**2024-02-19**|**Bayesian Parameter-Efficient Fine-Tuning for Overcoming Catastrophic Forgetting**|Haolin Chen et.al.|[2402.12220](http://arxiv.org/abs/2402.12220)|**[link](https://github.com/idiap/bayesian-peft)**|
 |**2024-02-18**|**Ain't Misbehavin' -- Using LLMs to Generate Expressive Robot Behavior in Conversations with the Tabletop Robot Haru**|Zining Wang et.al.|[2402.11571](http://arxiv.org/abs/2402.11571)|null|
 |**2024-02-14**|**MobileSpeech: A Fast and High-Fidelity Framework for Mobile Zero-Shot Text-to-Speech**|Shengpeng Ji et.al.|[2402.09378](http://arxiv.org/abs/2402.09378)|null|
-|**2024-02-15**|**BASE TTS: Lessons from building a billion-parameter Text-to-Speech model on 100K hours of data**|Mateusz Łajszczak et.al.|[2402.08093](http://arxiv.org/abs/2402.08093)|null|
+|**2024-02-15**|**BASE TTS: Lessons from building a billion-parameter Text-to-Speech model on 100K hours of data**|Mateusz 艁ajszczak et.al.|[2402.08093](http://arxiv.org/abs/2402.08093)|null|
 |**2024-03-04**|**Making Flow-Matching-Based Zero-Shot Text-to-Speech Laugh as You Like**|Naoyuki Kanda et.al.|[2402.07383](http://arxiv.org/abs/2402.07383)|null|
-|**2024-02-09**|**A New Approach to Voice Authenticity**|Nicolas M. Müller et.al.|[2402.06304](http://arxiv.org/abs/2402.06304)|null|
+|**2024-02-09**|**A New Approach to Voice Authenticity**|Nicolas M. M眉ller et.al.|[2402.06304](http://arxiv.org/abs/2402.06304)|null|
 |**2024-02-08**|**Unified Speech-Text Pretraining for Spoken Dialog Modeling**|Heeseung Kim et.al.|[2402.05706](http://arxiv.org/abs/2402.05706)|**[link](https://github.com/naver-ai/usdm)**|
-|**2024-02-05**|**Enhancing the Stability of LLM-based Speech Generation Systems through Self-Supervised Representations**|Álvaro Martín-Cortinas et.al.|[2402.03407](http://arxiv.org/abs/2402.03407)|null|
+|**2024-02-05**|**Enhancing the Stability of LLM-based Speech Generation Systems through Self-Supervised Representations**|脕lvaro Mart铆n-Cortinas et.al.|[2402.03407](http://arxiv.org/abs/2402.03407)|null|
 |**2024-02-02**|**Natural language guidance of high-fidelity text-to-speech with synthetic annotations**|Dan Lyth et.al.|[2402.01912](http://arxiv.org/abs/2402.01912)|null|
 |**2024-01-23**|**Maximizing Data Efficiency for Cross-Lingual TTS Adaptation by Self-Supervised Representation Mixing and Embedding Initialization**|Wei-Ping Huang et.al.|[2402.01692](http://arxiv.org/abs/2402.01692)|null|
 |**2024-02-01**|**Frame-Wise Breath Detection with Self-Training: An Exploration of Enhancing Breath Naturalness in Text-to-Speech**|Dong Yang et.al.|[2402.00288](http://arxiv.org/abs/2402.00288)|**[link](https://github.com/ydqmkkx/Respiro-en)**|
@@ -1159,7 +1162,7 @@ layout: default
 |**2024-01-22**|**Adversarial speech for voice privacy protection from Personalized Speech generation**|Shihao Chen et.al.|[2401.11857](http://arxiv.org/abs/2401.11857)|null|
 |**2024-02-16**|**Empowering Communication: Speech Technology for Indian and Western Accents through AI-powered Speech Synthesis**|Vinotha R et.al.|[2401.11771](http://arxiv.org/abs/2401.11771)|null|
 |**2024-01-19**|**Data-driven grapheme-to-phoneme representations for a lexicon-free text-to-speech**|Abhinav Garg et.al.|[2401.10465](http://arxiv.org/abs/2401.10465)|null|
-|**2024-02-28**|**MLAAD: The Multi-Language Audio Anti-Spoofing Dataset**|Nicolas M. Müller et.al.|[2401.09512](http://arxiv.org/abs/2401.09512)|null|
+|**2024-02-28**|**MLAAD: The Multi-Language Audio Anti-Spoofing Dataset**|Nicolas M. M眉ller et.al.|[2401.09512](http://arxiv.org/abs/2401.09512)|null|
 |**2024-01-15**|**MCMChaos: Improvising Rap Music with MCMC Methods and Chaos Theory**|Robert G. Kimelman et.al.|[2401.07967](http://arxiv.org/abs/2401.07967)|null|
 |**2024-01-14**|**ELLA-V: Stable Neural Codec Language Modeling with Alignment-guided Sequence Reordering**|Yakun Song et.al.|[2401.07333](http://arxiv.org/abs/2401.07333)|null|
 |**2024-01-12**|**Multi-Task Learning for Front-End Text Processing in TTS**|Wonjune Kang et.al.|[2401.06321](http://arxiv.org/abs/2401.06321)|**[link](https://github.com/facebookresearch/llama-hd-dataset)**|
@@ -1173,7 +1176,7 @@ layout: default
 |**2023-12-18**|**Assisting Blind People Using Object Detection with Vocal Feedback**|Heba Najm et.al.|[2401.01362](http://arxiv.org/abs/2401.01362)|null|
 |**2023-12-30**|**Boosting Large Language Model for Speech Synthesis: An Empirical Study**|Hongkun Hao et.al.|[2401.00246](http://arxiv.org/abs/2401.00246)|null|
 |**2024-01-01**|**Normalization of Lithuanian Text Using Regular Expressions**|Pijus Kasparaitis et.al.|[2312.17660](http://arxiv.org/abs/2312.17660)|null|
-|**2023-12-27**|**AE-Flow: AutoEncoder Normalizing Flow**|Jakub Mosiński et.al.|[2312.16552](http://arxiv.org/abs/2312.16552)|null|
+|**2023-12-27**|**AE-Flow: AutoEncoder Normalizing Flow**|Jakub Mosi艅ski et.al.|[2312.16552](http://arxiv.org/abs/2312.16552)|null|
 |**2023-12-22**|**Creating New Voices using Normalizing Flows**|Piotr Bilinski et.al.|[2312.14569](http://arxiv.org/abs/2312.14569)|null|
 |**2023-12-22**|**ZMM-TTS: Zero-shot Multilingual and Multispeaker Speech Synthesis Conditioned on Self-supervised Discrete Speech Representations**|Cheng Gong et.al.|[2312.14398](http://arxiv.org/abs/2312.14398)|null|
 |**2023-12-19**|**External Knowledge Augmented Polyphone Disambiguation Using Large Language Model**|Chen Li et.al.|[2312.11920](http://arxiv.org/abs/2312.11920)|null|
@@ -1324,7 +1327,7 @@ layout: default
 |**2023-06-05**|**Rhythm-controllable Attention with High Robustness for Long Sentence Speech Synthesis**|Dengfeng Ke et.al.|[2306.02593](http://arxiv.org/abs/2306.02593)|null|
 |**2023-06-05**|**Cross-Lingual Transfer Learning for Phrase Break Prediction with Multilingual Language Model**|Hoyeon Lee et.al.|[2306.02579](http://arxiv.org/abs/2306.02579)|null|
 |**2023-06-05**|**Latent Optimal Paths by Gumbel Propagation for Variational Bayesian Dynamic Programming**|Xinlei Niu et.al.|[2306.02568](http://arxiv.org/abs/2306.02568)|**[link](https://github.com/Berthaniu/LatentOptimalPathsBayesianDP)**|
-|**2023-06-02**|**Towards Robust FastSpeech 2 by Modelling Residual Multimodality**|Fabian Kögel et.al.|[2306.01442](http://arxiv.org/abs/2306.01442)|**[link](https://github.com/sony/ai-research-code)**|
+|**2023-06-02**|**Towards Robust FastSpeech 2 by Modelling Residual Multimodality**|Fabian K枚gel et.al.|[2306.01442](http://arxiv.org/abs/2306.01442)|**[link](https://github.com/sony/ai-research-code)**|
 |**2023-05-30**|**Towards Selection of Text-to-speech Data to Augment ASR Training**|Shuo Liu et.al.|[2306.00998](http://arxiv.org/abs/2306.00998)|null|
 |**2023-06-01**|**EmoMix: Emotion Mixing via Diffusion Models for Emotional Speech Synthesis**|Haobin Tang et.al.|[2306.00648](http://arxiv.org/abs/2306.00648)|null|
 |**2023-06-01**|**The Effects of Input Type and Pronunciation Dictionary Usage in Transfer Learning for Low-Resource Text-to-Speech**|Phat Do et.al.|[2306.00535](http://arxiv.org/abs/2306.00535)|null|
@@ -1333,7 +1336,7 @@ layout: default
 |**2023-06-01**|**PromptStyle: Controllable Style Transfer for Text-to-Speech with Natural Language Descriptions**|Guanghou Liu et.al.|[2305.19522](http://arxiv.org/abs/2305.19522)|null|
 |**2023-05-30**|**Resource-Efficient Fine-Tuning Strategies for Automatic MOS Prediction in Text-to-Speech for Low-Resource Languages**|Phat Do et.al.|[2305.19396](http://arxiv.org/abs/2305.19396)|null|
 |**2023-05-30**|**Make-A-Voice: Unified Voice Synthesis With Discrete Representation**|Rongjie Huang et.al.|[2305.19269](http://arxiv.org/abs/2305.19269)|null|
-|**2023-05-30**|**STT4SG-350: A Speech Corpus for All Swiss German Dialect Regions**|Michel Plüss et.al.|[2305.18855](http://arxiv.org/abs/2305.18855)|null|
+|**2023-05-30**|**STT4SG-350: A Speech Corpus for All Swiss German Dialect Regions**|Michel Pl眉ss et.al.|[2305.18855](http://arxiv.org/abs/2305.18855)|null|
 |**2023-05-30**|**LibriTTS-R: A Restored Multi-Speaker Text-to-Speech Corpus**|Yuma Koizumi et.al.|[2305.18802](http://arxiv.org/abs/2305.18802)|null|
 |**2023-10-09**|**An Efficient Membership Inference Attack for the Diffusion Model by Proximal Initialization**|Fei Kong et.al.|[2305.18355](http://arxiv.org/abs/2305.18355)|**[link](https://github.com/kong13661/pia)**|
 |**2023-05-29**|**ADAPTERMIX: Exploring the Efficacy of Mixture of Adapters for Low-Resource TTS Adaptation**|Ambuj Mehrish et.al.|[2305.18028](http://arxiv.org/abs/2305.18028)|**[link](https://github.com/declare-lab/adapter-mix)**|
@@ -1574,7 +1577,7 @@ layout: default
 |**2022-10-11**|**UTTS: Unsupervised TTS with Conditional Disentangled Sequential Variational Auto-encoder**|Jiachen Lian et.al.|[2206.02512](http://arxiv.org/abs/2206.02512)|null|
 |**2023-10-19**|**Dict-TTS: Learning to Pronounce with Prior Dictionary Knowledge for Text-to-Speech**|Ziyue Jiang et.al.|[2206.02147](http://arxiv.org/abs/2206.02147)|**[link](https://github.com/zain-jiang/dict-tts)**|
 |**2022-11-02**|**AdaVITS: Tiny VITS for Low Computing Resource Speaker Adaptation**|Kun Song et.al.|[2206.00208](http://arxiv.org/abs/2206.00208)|null|
-|**2022-05-31**|**Preparing an Endangered Language for the Digital Age: The Case of Judeo-Spanish**|Alp Öktem et.al.|[2205.15599](http://arxiv.org/abs/2205.15599)|**[link](https://github.com/collectivat-dev/ladino_tts)**|
+|**2022-05-31**|**Preparing an Endangered Language for the Digital Age: The Case of Judeo-Spanish**|Alp 脰ktem et.al.|[2205.15599](http://arxiv.org/abs/2205.15599)|**[link](https://github.com/collectivat-dev/ladino_tts)**|
 |**2023-11-20**|**StyleTTS: A Style-Based Generative Model for Natural and Diverse Text-to-Speech Synthesis**|Yinghao Aaron Li et.al.|[2205.15439](http://arxiv.org/abs/2205.15439)|**[link](https://github.com/yl4579/StyleTTS)**|
 |**2022-05-30**|**Guided-TTS 2: A Diffusion Model for High-quality Adaptive Text-to-Speech with Untranscribed Data**|Sungwon Kim et.al.|[2205.15370](http://arxiv.org/abs/2205.15370)|null|
 |**2022-05-26**|**QSpeech: Low-Qubit Quantum Speech Application Toolkit**|Zhenhou Hong et.al.|[2205.13221](http://arxiv.org/abs/2205.13221)|**[link](https://github.com/zhenhouhong/qspeech)**|
@@ -1620,14 +1623,14 @@ layout: default
 |**2022-03-31**|**Open Source MagicData-RAMC: A Rich Annotated Mandarin Conversational(RAMC) Speech Dataset**|Zehui Yang et.al.|[2203.16844](http://arxiv.org/abs/2203.16844)|null|
 |**2022-03-31**|**NeuFA: Neural Network Based End-to-End Forced Alignment with Bidirectional Attention Mechanism**|Jingbei Li et.al.|[2203.16838](http://arxiv.org/abs/2203.16838)|**[link](https://github.com/thuhcsi/neufa)**|
 |**2022-03-31**|**Effectiveness of text to speech pseudo labels for forced alignment and cross lingual pretrained models for low resource speech recognition**|Anirudh Gupta et.al.|[2203.16823](http://arxiv.org/abs/2203.16823)|null|
-|**2022-04-21**|**Does Audio Deepfake Detection Generalize?**|Nicolas M. Müller et.al.|[2203.16263](http://arxiv.org/abs/2203.16263)|null|
+|**2022-04-21**|**Does Audio Deepfake Detection Generalize?**|Nicolas M. M眉ller et.al.|[2203.16263](http://arxiv.org/abs/2203.16263)|null|
 |**2022-03-30**|**End to End Lip Synchronization with a Temporal AutoEncoder**|Yoav Shalev et.al.|[2203.16224](http://arxiv.org/abs/2203.16224)|**[link](https://github.com/itsyoavshalev/end-to-end-lip-synchronization-with-a-temporal-autoencoder)**|
 |**2022-08-15**|**Unsupervised Text-to-Speech Synthesis by Unsupervised Automatic Speech Recognition**|Junrui Ni et.al.|[2203.15796](http://arxiv.org/abs/2203.15796)|**[link](https://github.com/lwang114/unsuptts)**|
 |**2022-06-29**|**DRSpeech: Degradation-Robust Text-to-Speech Synthesis with Frame-Level and Utterance-Level Acoustic Representation Learning**|Takaaki Saeki et.al.|[2203.15683](http://arxiv.org/abs/2203.15683)|null|
 |**2022-11-05**|**Nix-TTS: Lightweight and End-to-End Text-to-Speech via Module-wise Distillation**|Rendi Chevi et.al.|[2203.15643](http://arxiv.org/abs/2203.15643)|**[link](https://github.com/rendchevi/nix-tts)**|
 |**2022-10-06**|**Transfer Learning Framework for Low-Resource Text-to-Speech using a Large-Scale Unlabeled Speech Corpus**|Minchan Kim et.al.|[2203.15447](http://arxiv.org/abs/2203.15447)|null|
 |**2022-07-11**|**VoiceMe: Personalized voice generation in TTS**|Pol van Rijn et.al.|[2203.15379](http://arxiv.org/abs/2203.15379)|**[link](https://github.com/polvanrijn/voiceme)**|
-|**2021-07-13**|**Extending Text-to-Speech Synthesis with Articulatory Movement Prediction using Ultrasound Tongue Imaging**|Tamás Gábor Csapó et.al.|[2107.05550](http://arxiv.org/abs/2107.05550)|null|
+|**2021-07-13**|**Extending Text-to-Speech Synthesis with Articulatory Movement Prediction using Ultrasound Tongue Imaging**|Tam谩s G谩bor Csap贸 et.al.|[2107.05550](http://arxiv.org/abs/2107.05550)|null|
 |**2021-07-07**|**Location, Location: Enhancing the Evaluation of Text-to-Speech Synthesis Using the Rapid Prosody Transcription Paradigm**|Elijah Gutierrez et.al.|[2107.02527](http://arxiv.org/abs/2107.02527)|null|
 |**2022-02-25**|**Text-to-Speech Synthesis Techniques for MIDI-to-Audio Synthesis**|Erica Cooper et.al.|[2104.12292](http://arxiv.org/abs/2104.12292)|null|
 |**2019-09-26**|**Sequence to Sequence Neural Speech Synthesis with Prosody Modification Capabilities**|Slava Shechtman et.al.|[1909.10302](http://arxiv.org/abs/1909.10302)|null|

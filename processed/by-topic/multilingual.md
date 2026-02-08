@@ -287,7 +287,7 @@
 
 ## 2025-09-22
 
-- **TMD-TTS: A Unified Tibetan Multi-Dialect Text-to-Speech Synthesis for Ü-Tsang, Amdo and Kham Speech Dataset Generation**
+- **TMD-TTS: A Unified Tibetan Multi-Dialect Text-to-Speech Synthesis for 脺-Tsang, Amdo and Kham Speech Dataset Generation**
   - Authors: Yutong Liu et.al.
   - arXiv: [2509.18060](https://arxiv.org/abs/2509.18060)
 
@@ -480,7 +480,7 @@
 ## 2025-07-03
 
 - **Open-Source System for Multilingual Translation and Cloned Speech Synthesis**
-  - Authors: Mateo Cámara et.al.
+  - Authors: Mateo C谩mara et.al.
   - arXiv: [2507.02530](https://arxiv.org/abs/2507.02530)
 
 ## 2025-06-21
@@ -600,7 +600,7 @@
 ## 2025-05-13
 
 - **Investigating self-supervised features for expressive, multilingual voice conversion**
-  - Authors: Álvaro Martín-Cortinas et.al.
+  - Authors: 脕lvaro Mart铆n-Cortinas et.al.
   - arXiv: [2505.08278](https://arxiv.org/abs/2505.08278)
 
 ## 2025-05-10
@@ -669,7 +669,7 @@
   - Authors: Sungwoo Cho et.al.
   - arXiv: [2503.11026](https://arxiv.org/abs/2503.11026)
 - **Proceedings of the ISCA/ITG Workshop on Diversity in Large Speech and Language Models**
-  - Authors: Sebastian Möller et.al.
+  - Authors: Sebastian M枚ller et.al.
   - arXiv: [2503.10298](https://arxiv.org/abs/2503.10298)
 
 ## 2025-03-10
@@ -687,7 +687,7 @@
 ## 2025-03-02
 
 - **Language-agnostic, automated assessment of listeners' speech recall using large language models**
-  - Authors: Björn Herrmann et.al.
+  - Authors: Bj枚rn Herrmann et.al.
   - arXiv: [2503.01045](https://arxiv.org/abs/2503.01045)
 
 ## 2025-02-18
@@ -996,7 +996,7 @@
 ## 2024-06-06
 
 - **Small-E: Small Language Model with Linear Attention for Efficient Speech Synthesis**
-  - Authors: Théodor Lemerle et.al.
+  - Authors: Th茅odor Lemerle et.al.
   - arXiv: [2406.04467](https://arxiv.org/abs/2406.04467)
 - **Retrieval Augmented Generation in Prompt-based Text-to-Speech Synthesis with Context-Aware Contrastive Language-Audio Pretraining**
   - Authors: Jinlong Xue et.al.
@@ -1317,7 +1317,7 @@
   - Authors: Phat Do et.al.
   - arXiv: [2305.19396](https://arxiv.org/abs/2305.19396)
 - **STT4SG-350: A Speech Corpus for All Swiss German Dialect Regions**
-  - Authors: Michel Plüss et.al.
+  - Authors: Michel Pl眉ss et.al.
   - arXiv: [2305.18855](https://arxiv.org/abs/2305.18855)
 
 ## 2023-05-27
@@ -1479,7 +1479,7 @@
 ## 2022-05-31
 
 - **Preparing an Endangered Language for the Digital Age: The Case of Judeo-Spanish**
-  - Authors: Alp Öktem et.al.
+  - Authors: Alp 脰ktem et.al.
   - arXiv: [2205.15599](https://arxiv.org/abs/2205.15599)
 
 ## 2022-05-29

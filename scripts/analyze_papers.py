@@ -30,10 +30,10 @@ def load_config():
         raise FileNotFoundError(f"Config not found: {config_path}")
     with open(config_path, 'r', encoding='utf-8') as f:
         cfg = json.load(f)
-    model = cfg["models"]["providers"]["qwen"]["models"][0]
+    model = cfg["models"]["providers"]["openrouter"]["models"][0]
     return {
-        "api_key": cfg["models"]["providers"]["qwen"]["apiKey"],
-        "base_url": cfg["models"]["providers"]["qwen"]["baseUrl"],
+        "api_key": cfg["models"]["providers"]["openrouter"]["apiKey"],
+        "base_url": cfg["models"]["providers"]["openrouter"]["baseUrl"],
         "model": model['id']
     }
 

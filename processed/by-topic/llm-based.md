@@ -423,7 +423,7 @@
 ## 2025-03-02
 
 - **Language-agnostic, automated assessment of listeners' speech recall using large language models**
-  - Authors: Björn Herrmann et.al.
+  - Authors: Bj枚rn Herrmann et.al.
   - arXiv: [2503.01045](https://arxiv.org/abs/2503.01045)
 
 ## 2025-02-26
@@ -684,7 +684,7 @@
 ## 2024-02-05
 
 - **Enhancing the Stability of LLM-based Speech Generation Systems through Self-Supervised Representations**
-  - Authors: Álvaro Martín-Cortinas et.al.
+  - Authors: 脕lvaro Mart铆n-Cortinas et.al.
   - arXiv: [2402.03407](https://arxiv.org/abs/2402.03407)
 - **LAraBench: Benchmarking Arabic AI with Large Language Models**
   - Authors: Ahmed Abdelali et.al.

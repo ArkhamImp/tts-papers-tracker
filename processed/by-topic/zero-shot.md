@@ -1,5 +1,11 @@
 # Zero Shot Papers
 
+## 2026-02-05
+
+- **Zero-Shot TTS With Enhanced Audio Prompts: Bsc Submission For The 2026 Wildspoof Challenge TTS Track**
+  - Authors: Jose Giraldo et.al.
+  - arXiv: [2602.05770](https://arxiv.org/abs/2602.05770)
+
 ## 2026-02-04
 
 - **PFluxTTS: Hybrid Flow-Matching TTS with Robust Cross-Lingual Voice Cloning and Inference-Time Model Fusion**
@@ -438,7 +444,7 @@
 ## 2024-10-09
 
 - **Efficient training strategies for natural sounding speech synthesis and speaker adaptation based on FastPitch**
-  - Authors: Teodora Răgman et.al.
+  - Authors: Teodora R膬gman et.al.
   - arXiv: [2410.06787](https://arxiv.org/abs/2410.06787)
 
 ## 2024-10-06

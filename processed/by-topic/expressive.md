@@ -504,7 +504,7 @@
 ## 2025-05-13
 
 - **Investigating self-supervised features for expressive, multilingual voice conversion**
-  - Authors: Álvaro Martín-Cortinas et.al.
+  - Authors: 脕lvaro Mart铆n-Cortinas et.al.
   - arXiv: [2505.08278](https://arxiv.org/abs/2505.08278)
 
 ## 2025-04-22
