@@ -30,17 +30,25 @@ def load_config():
         raise FileNotFoundError(f"Config not found: {config_path}")
     with open(config_path, 'r', encoding='utf-8') as f:
         cfg = json.load(f)
-    model = cfg["models"]["providers"]["openrouter"]["models"][0]
+
+    # 严格使用 openrouter stepfun 模型（用户明确要求）
+    openrouter = cfg["models"]["providers"]["openrouter"]
+    model = openrouter["models"][0]  # openrouter/stepfun/step-3.5-flash:free
     return {
-        "api_key": cfg["models"]["providers"]["openrouter"]["apiKey"],
-        "base_url": cfg["models"]["providers"]["openrouter"]["baseUrl"],
-        "model": model['id']
+        "api_key": openrouter["apiKey"],
+        "base_url": openrouter["baseUrl"],
+        "model": model['id'],
+        "provider": "openrouter"
     }
 
 def load_json(path):
     if path.exists():
-        with open(path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except UnicodeDecodeError:
+            with open(path, 'r', encoding='gbk', errors='replace') as f:
+                return json.load(f)
     return {}
 
 def save_json(data, path):
@@ -128,9 +136,10 @@ def build_paper_dict():
     if not raw_readme.exists():
         raise FileNotFoundError(f"Missing: {raw_readme}")
     try:
-        lines = raw_readme.read_text(encoding='utf-8').splitlines()
+        readme_text = raw_readme.read_text(encoding='utf-8')
     except UnicodeDecodeError:
-        lines = raw_readme.read_text(encoding='gbk', errors='replace').splitlines()
+        readme_text = raw_readme.read_text(encoding='gbk', errors='replace')
+    lines = readme_text.splitlines()
     papers = {}
     for line in lines:
         line = line.strip()

@@ -312,3 +312,45 @@
 - `synthesis`: 707 papers
 - `zero-shot`: 154 papers
 
+## Updated 2026-02-08 10:48
+
+- **Total TTS-relevant papers**: 1529
+- `codec`: 51 papers
+- `editing`: 17 papers
+- `expressive`: 242 papers
+- `llm-based`: 141 papers
+- `long-context`: 8 papers
+- `multilingual`: 267 papers
+- `other`: 497 papers
+- `streaming`: 77 papers
+- `synthesis`: 707 papers
+- `zero-shot`: 154 papers
+
+## Updated 2026-02-08 10:58
+
+- **Total TTS-relevant papers**: 1529
+- `codec`: 51 papers
+- `editing`: 17 papers
+- `expressive`: 242 papers
+- `llm-based`: 141 papers
+- `long-context`: 8 papers
+- `multilingual`: 267 papers
+- `other`: 497 papers
+- `streaming`: 77 papers
+- `synthesis`: 707 papers
+- `zero-shot`: 154 papers
+
+## Updated 2026-02-08 21:06
+
+- **Total TTS-relevant papers**: 1529
+- `codec`: 51 papers
+- `editing`: 17 papers
+- `expressive`: 242 papers
+- `llm-based`: 141 papers
+- `long-context`: 8 papers
+- `multilingual`: 267 papers
+- `other`: 497 papers
+- `streaming`: 77 papers
+- `synthesis`: 707 papers
+- `zero-shot`: 154 papers
+
